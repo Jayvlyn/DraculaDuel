@@ -1,5 +1,6 @@
 using System;
 using UnityEngine;
+using UnityEngine.Events;
 
 public class Health : MonoBehaviour
 {
@@ -14,10 +15,41 @@ public class Health : MonoBehaviour
     public void ApplyDamage(float damage)
     {
         currentHealth -= damage;
+
+        if (currentHealth <= 0)
+        {
+            Die();
+        }
+    }
+
+    public void Heal(float amount)
+    {
+        currentHealth += amount;
+        if (currentHealth > maxHealth)
+        {
+            currentHealth = maxHealth;
+        }
+    }
+
+    public void SetHealth(float amount)
+    {
+        currentHealth = amount;
+    }
+
+    public void SetMaxHealth(float amount)
+    {
+        maxHealth = amount;
     }
 
     public int GetHealth()
     {
         return Mathf.CeilToInt(currentHealth);
     }
+
+    public void Die()
+    {
+        OnDeath.Invoke();
+    }
+
+    [SerializeField] private UnityEvent OnDeath;
 }
