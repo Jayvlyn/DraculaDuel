@@ -3,7 +3,7 @@ using UnityEngine;
 public class AgentWeapon : MonoBehaviour
 {
     // Start is called once before the first execution of Update after the MonoBehaviour is created
-    [SerializeField] public GameObject Owner;
+    [SerializeField] public DraculaAgent Owner;
     [SerializeField] public GameObject ProjectileObject;
     [SerializeField] public Transform Proj_SpawnTransform;
     [SerializeField] public float FireCooldown = 3;
