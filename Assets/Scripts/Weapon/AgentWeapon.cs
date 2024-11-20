@@ -11,8 +11,8 @@ public class AgentWeapon : MonoBehaviour
     // Maybe
     private bool isReady = true;
     private float cooldownTimer = 0;
-    private float throwAngle = 0;
-    private float throwPower = 0;
+    public float throwAngle = 0;
+    public float throwPower = 0;
 
     void Start()
     {
@@ -28,10 +28,11 @@ public class AgentWeapon : MonoBehaviour
         }
     }
 
-    void FireWeapon()
+    public void FireWeapon()
     {
         if (isReady)
         {
+            Debug.Log("Please Work");
             Quaternion tempR = Proj_SpawnTransform.rotation;
             tempR.x += throwAngle;
 
