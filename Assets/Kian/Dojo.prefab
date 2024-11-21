@@ -1863,6 +1863,10 @@ PrefabInstance:
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
       objectReference: {fileID: 0}
+    - target: {fileID: 5067840740732179895, guid: 73a6082237e1d344fbb4b2d0a44e2dce, type: 3}
+      propertyPath: m_BehaviorName
+      value: DraculaDuel
+      objectReference: {fileID: 0}
     - target: {fileID: 6586029050305723491, guid: 73a6082237e1d344fbb4b2d0a44e2dce, type: 3}
       propertyPath: spawnTransform
       value: 
