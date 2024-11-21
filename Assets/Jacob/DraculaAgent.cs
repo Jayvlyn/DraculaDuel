@@ -30,7 +30,14 @@ public class DraculaAgent : Agent
 			}
 		}
 
-		sensor.AddObservation(enemyTransform.position);
+		if (enemyTransform != null)
+		{
+			sensor.AddObservation(enemyTransform.position);
+		}
+		else
+		{
+			sensor.AddObservation(Vector3.zero);
+		}
 		
 	}
 
