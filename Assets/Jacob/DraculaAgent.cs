@@ -112,8 +112,6 @@ public class DraculaAgent : Agent
 
 		var discreteActions = actionsOut.DiscreteActions;
 
-		int shoot = 0;
-		if (Input.GetButton("Jump")) shoot = 1;
-		discreteActions[0] = shoot;
+		discreteActions[0] = (Input.GetButton("Jump")) ? 1 : 0;
 	}
 }
