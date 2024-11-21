@@ -22,7 +22,7 @@ public class AgentWeapon : MonoBehaviour
     // Update is called once per frame
     void Update()
     {
-        Debug.Log(cooldownTimer);
+        //Debug.Log(cooldownTimer);
         if (!isReady && cooldownTimer > 0)
         {
             cooldownTimer -= Time.deltaTime;

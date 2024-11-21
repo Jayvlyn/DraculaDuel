@@ -1864,14 +1864,6 @@ PrefabInstance:
       value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 6586029050305723491, guid: 73a6082237e1d344fbb4b2d0a44e2dce, type: 3}
-      propertyPath: weapon
-      value: 
-      objectReference: {fileID: 6417456468699849324}
-    - target: {fileID: 6586029050305723491, guid: 73a6082237e1d344fbb4b2d0a44e2dce, type: 3}
-      propertyPath: MaxStep
-      value: 5000
-      objectReference: {fileID: 0}
-    - target: {fileID: 6586029050305723491, guid: 73a6082237e1d344fbb4b2d0a44e2dce, type: 3}
       propertyPath: spawnTransform
       value: 
       objectReference: {fileID: 7313659627502542901}
@@ -1880,17 +1872,6 @@ PrefabInstance:
     m_AddedGameObjects: []
     m_AddedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 73a6082237e1d344fbb4b2d0a44e2dce, type: 3}
---- !u!114 &6417456468699849324 stripped
-MonoBehaviour:
-  m_CorrespondingSourceObject: {fileID: 449016842225948709, guid: 73a6082237e1d344fbb4b2d0a44e2dce, type: 3}
-  m_PrefabInstance: {fileID: 6860205818628323913}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 0}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: bcfd5eef2e27cf3459accfcf605d7831, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
 --- !u!4 &8072953886209796570 stripped
 Transform:
   m_CorrespondingSourceObject: {fileID: 3403802203256542099, guid: 73a6082237e1d344fbb4b2d0a44e2dce, type: 3}
