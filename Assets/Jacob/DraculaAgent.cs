@@ -54,9 +54,14 @@ public class DraculaAgent : Agent
 		// end episode
 	}
 
-	public void OnSucessfulHit()
+	public void HitSuccess()
 	{
 		SetReward(1);
+	}
+
+	public void HitMiss()
+	{
+		SetReward(-0.2f);
 	}
 
 	public override void OnEpisodeBegin()
