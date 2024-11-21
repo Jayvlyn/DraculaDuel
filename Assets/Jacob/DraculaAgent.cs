@@ -111,7 +111,7 @@ public class DraculaAgent : Agent
 		continuousActions[2] = Input.GetAxis("Yaw");
 
 		var discreteActions = actionsOut.DiscreteActions;
-
+		Debug.Log((Input.GetButton("Jump")) ? 1 : 0);
 		discreteActions[0] = (Input.GetButton("Jump")) ? 1 : 0;
 	}
 }
