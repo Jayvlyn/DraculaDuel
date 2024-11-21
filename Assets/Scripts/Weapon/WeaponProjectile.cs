@@ -25,9 +25,15 @@ public class WeaponProjectile : MonoBehaviour
         {
             other.GetComponent<Health>().ApplyDamage(1);
             Owner.HitSuccess();
+            Destroy(gameObject);
+            return;
         }
 
-        Destroy(this.gameObject);
-        Owner.HitMiss();
+        if (!other.gameObject.CompareTag(this.gameObject.tag))
+        {
+            Destroy(this.gameObject);
+            Owner.HitMiss();
+            return;
+        }
     }
 }
