@@ -14,7 +14,8 @@ public class WeaponProjectile : MonoBehaviour
     // Update is called once per frame
     void Update()
     {
-
+        // Rotate the stake based on it's velocity ??
+        //transform.RotateAround(transform.position,)
     }
 
     void SetOwner(GameObject owner)

@@ -5,8 +5,8 @@ public class AgentWeapon : MonoBehaviour
     // Start is called once before the first execution of Update after the MonoBehaviour is created
     [SerializeField] public DraculaAgent Owner;
     [SerializeField] public GameObject ProjectileObject;
-    [SerializeField] public Transform Proj_SpawnTransform;
-    [SerializeField] public float FireCooldown = 3;
+    [SerializeField] public Transform spawnTransform;
+    [SerializeField] public float FireCooldown = 0.5f;
 
     // Maybe
     private bool isReady = true;
@@ -22,9 +22,13 @@ public class AgentWeapon : MonoBehaviour
     // Update is called once per frame
     void Update()
     {
+        Debug.Log(cooldownTimer);
         if (!isReady && cooldownTimer > 0)
         {
             cooldownTimer -= Time.deltaTime;
+        }else
+        {
+            isReady = true;
         }
     }
 
@@ -33,14 +37,16 @@ public class AgentWeapon : MonoBehaviour
         if (isReady)
         {
             Debug.Log("Please Work");
-            Quaternion tempR = Proj_SpawnTransform.rotation;
+            Quaternion tempR = transform.rotation;
             tempR.x += throwAngle;
 
-            Transform tempTransform = Proj_SpawnTransform;
-            tempTransform.position = Proj_SpawnTransform.position;
+            Transform tempTransform = spawnTransform;
+            tempTransform.position = spawnTransform.position;
             tempTransform.rotation = tempR;
 
-            Vector3 force = Quaternion.Euler(0, throwAngle, 0) * tempTransform.forward;
+            //Vector3 force = Quaternion.Euler(0, throwAngle, 0) * transform.forward;
+            Vector3 force = transform.forward;
+            force.y += throwAngle / 90;
             force.Normalize();
 
             // Pew

@@ -10,7 +10,7 @@ public class Attacker : MonoBehaviour
         if (Input.GetKeyDown(KeyCode.Space))
         {
             _weapon.throwAngle = 45;
-            _weapon.throwPower = 100;
+            _weapon.throwPower = 500;
             _weapon.FireWeapon();
         }
     }
