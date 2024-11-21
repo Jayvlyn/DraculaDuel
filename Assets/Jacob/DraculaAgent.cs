@@ -97,9 +97,10 @@ public class DraculaAgent : Agent
 		base.Heuristic(actionsOut);
 
 		var continuousActions = actionsOut.ContinuousActions;
-		continuousActions[0] = Input.GetAxis("Horizontal");
-		continuousActions[1] = Input.GetAxis("Vertical");
-		continuousActions[2] = Input.GetAxis("Yaw");
+
+		continuousActions[0] = Mathf.CeilToInt(Input.GetAxis("Horizontal"));
+		continuousActions[1] = Mathf.CeilToInt(Input.GetAxis("Vertical"));
+		continuousActions[2] = Mathf.CeilToInt(Input.GetAxis("Yaw"));
 
 		var discreteActions = actionsOut.DiscreteActions;
 
