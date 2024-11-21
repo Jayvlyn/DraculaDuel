@@ -6,10 +6,6 @@ public class WeaponProjectile : MonoBehaviour
     public DraculaAgent Owner;
     public string targetTag;
     public GameObject projectile;
-    void Start()
-    {
-
-    }
 
     // Update is called once per frame
     void Update()
@@ -28,10 +24,10 @@ public class WeaponProjectile : MonoBehaviour
         if (other.gameObject.CompareTag(targetTag))
         {
             other.GetComponent<Health>().ApplyDamage(1);
-            //Owner.HitSuccess();
+            Owner.HitSuccess();
         }
 
         Destroy(this.gameObject);
-        //Owner.HitMiss();
+        Owner.HitMiss();
     }
 }
