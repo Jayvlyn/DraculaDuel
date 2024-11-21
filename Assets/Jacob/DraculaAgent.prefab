@@ -160,7 +160,7 @@ MonoBehaviour:
   characterController: {fileID: 3259127104168974504}
   moveSpeed: 5
   turnSpeed: 200
-  playerPossessed: 1
+  playerPossessed: 0
 --- !u!114 &5067840740732179895
 MonoBehaviour:
   m_ObjectHideFlags: 0
