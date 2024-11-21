@@ -60,10 +60,14 @@ public class DraculaAgent : Agent
 		direction.z = actions.ContinuousActions[1];
 		turnAngle = actions.ContinuousActions[2];
 
-		Debug.Log(direction);
 		characterMovement.Move(direction);
 		characterMovement.Turn(turnAngle);
-		if (actions.DiscreteActions[0] == 1) weapon.FireWeapon();
+		Debug.Log(actions.DiscreteActions[0].ToString());
+		if (actions.DiscreteActions[0] == 1)
+		{
+			AddReward(0.1f);
+			weapon.FireWeapon();
+		}
 
 		// here you can:
 		// set reward
@@ -72,12 +76,12 @@ public class DraculaAgent : Agent
 
 	public void HitSuccess()
 	{
-		SetReward(1);
+		AddReward(1);
 	}
 
 	public void HitMiss()
 	{
-		SetReward(-0.2f);
+		AddReward(-0.2f);
 	}
 
 	public override void OnEpisodeBegin()
