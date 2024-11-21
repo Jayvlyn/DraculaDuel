@@ -3,7 +3,7 @@ using UnityEngine;
 public class WeaponProjectile : MonoBehaviour
 {
     // Start is called once before the first execution of Update after the MonoBehaviour is created
-    public GameObject Owner;
+    public DraculaAgent Owner;
     public string targetTag;
     public GameObject projectile;
     void Start()
@@ -18,7 +18,7 @@ public class WeaponProjectile : MonoBehaviour
         //transform.RotateAround(transform.position,)
     }
 
-    void SetOwner(GameObject owner)
+    void SetOwner(DraculaAgent owner)
     {
         Owner = owner;
     }
