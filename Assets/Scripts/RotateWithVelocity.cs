@@ -9,14 +9,13 @@ public class RotateWithVelocity : MonoBehaviour
     {
         Vector3 forwardVelocity = _rigidbody.linearVelocity;
 
-        // Ensure the forward direction is normalized (to avoid scaling issues)
-        if (forwardVelocity.sqrMagnitude > 0.1f) // Ensure velocity is not zero
+        if (forwardVelocity.sqrMagnitude > 0.1f)
         {
             transform.forward = forwardVelocity.normalized;
         }
         else
         {
-            // Optional: Set a default forward direction if velocity is near zero
             transform.forward = Vector3.forward;
-        }    }
+        }    
+    }
 }
