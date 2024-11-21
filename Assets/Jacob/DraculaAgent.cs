@@ -6,6 +6,7 @@ using UnityEngine;
 public class DraculaAgent : Agent
 {
 	public CharacterMovement characterMovement;
+	public AgentWeapon weapon;
 
 	public override void CollectObservations(VectorSensor sensor)
 	{
@@ -29,6 +30,7 @@ public class DraculaAgent : Agent
 
 		characterMovement.Move(direction);
 		characterMovement.Turn(turnAngle);
+		if (actions.DiscreteActions[0] == 1) weapon.FireWeapon();
 
 		// here you can:
 		// set reward
@@ -54,5 +56,11 @@ public class DraculaAgent : Agent
 		continuousActions[0] = Input.GetAxis("Horizontal");
 		continuousActions[1] = Input.GetAxis("Vertical");
 		continuousActions[2] = Input.GetAxis("Yaw");
+
+		var discreteActions = actionsOut.DiscreteActions;
+
+		int shoot = 0;
+		if (Input.GetButton("Jump")) shoot = 1;
+		discreteActions[0] = shoot;
 	}
 }
