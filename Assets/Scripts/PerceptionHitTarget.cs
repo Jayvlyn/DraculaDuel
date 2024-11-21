@@ -14,5 +14,6 @@ public enum TargetType
     Enemy,
     Team1,
     Team2,
-    Projectile
+    Projectile,
+    Wall
 }
