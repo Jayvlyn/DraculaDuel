@@ -11,6 +11,14 @@ public class DraculaAgent : Agent
 	public AgentWeapon weapon;
 	public Transform spawnTransform;
 
+
+	/*
+	 * Observations:
+	 * 1: This Agent Position
+	 * 2: Enemy Position, 0 if it cant see enemy
+	 * 
+	 */
+
 	public override void CollectObservations(VectorSensor sensor)
 	{
 		base.CollectObservations(sensor);
