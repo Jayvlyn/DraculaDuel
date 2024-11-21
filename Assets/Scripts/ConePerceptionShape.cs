@@ -3,7 +3,7 @@ using UnityEngine;
 public class ConePerceptionShape : CylinderPerceptionShape
 {
     [SerializeField] private float tiltAngle = 30;
-    [SerializeField] private float slope = 0;
+    [SerializeField] private float slope = 10;
     public override Ray[] GetRays(Vector3 forward)
     {
         Ray[] rays = new Ray[rayCount];
@@ -19,10 +19,11 @@ public class ConePerceptionShape : CylinderPerceptionShape
                 Mathf.Sin(polarAngle) * Mathf.Sin(azimuthalAngle),
                 Mathf.Cos(polarAngle)
             );
+            Vector3 relativeOffset = centerOffset + transform.forward;
             rotatedDirection = Quaternion.LookRotation(-forward) * rotatedDirection;
             rotatedDirection = Quaternion.Euler(tiltAngle, 0, 0) * rotatedDirection;
-            rays[i] = new Ray(transform.position + centerOffset, rotatedDirection * maxDistance);
-            rays[i] = new Ray(transform.position + centerOffset, -rotatedDirection * maxDistance);
+            rays[i] = new Ray(transform.position + relativeOffset, rotatedDirection * maxDistance);
+            rays[i] = new Ray(transform.position + relativeOffset, -rotatedDirection * maxDistance);
         }
         return rays;
     }
