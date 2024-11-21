@@ -11,7 +11,8 @@ public class CylinderPerceptionShape : PerceptionShape
         {
             float t = i * 1.0f / (rayCount - 1);
             float angleOffForward = Mathf.LerpAngle(-degreeArc, degreeArc, t);
-            rays[i] = new Ray(transform.position + centerOffset, (Quaternion.Euler(0, angleOffForward, 0) * forward.normalized) * maxDistance);
+            Vector3 relativeOffset = centerOffset + transform.forward;
+            rays[i] = new Ray(transform.position + relativeOffset, (Quaternion.Euler(0, angleOffForward, 0) * forward.normalized) * maxDistance);
         }
         return rays;
     }
