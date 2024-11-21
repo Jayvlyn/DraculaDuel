@@ -7,6 +7,7 @@ public class DraculaAgent : Agent
 {
 	public CharacterMovement characterMovement;
 	public AgentWeapon weapon;
+	public Transform spawnTransform;
 
 	public override void CollectObservations(VectorSensor sensor)
 	{
@@ -21,7 +22,7 @@ public class DraculaAgent : Agent
 	{
 		base.OnActionReceived(actions);
 
-		Vector3 direction = Vector3.zero;
+		UnityEngine.Vector3 direction = UnityEngine.Vector3.zero;
 		float turnAngle = 0;
 
 		direction.x = actions.ContinuousActions[0];
@@ -41,11 +42,13 @@ public class DraculaAgent : Agent
 	{
 		base.OnEpisodeBegin();
 
-		// set up agent for start
+		// set up agent for start : 
 
 		// move back to spawn transform
+		transform.position = spawnTransform.position;
 
 		// set rotation to be correct
+		transform.localRotation = UnityEngine.Quaternion.Euler(0, 90, 0);
 	}
 
 	public override void Heuristic(in ActionBuffers actionsOut)
