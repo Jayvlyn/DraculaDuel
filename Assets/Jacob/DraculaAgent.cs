@@ -2,10 +2,12 @@ using Unity.MLAgents;
 using Unity.MLAgents.Actuators;
 using Unity.MLAgents.Sensors;
 using UnityEngine;
+using System.Collections.Generic;
 
 public class DraculaAgent : Agent
 {
 	public CharacterMovement characterMovement;
+	public AIPerception perception;
 	public AgentWeapon weapon;
 	public Transform spawnTransform;
 
@@ -13,8 +15,22 @@ public class DraculaAgent : Agent
 	{
 		base.CollectObservations(sensor);
 
+		List<TargetHitData> hitData = perception.PerceiveTargets(transform.forward);
+
 		// add other important observations that the ai needs, like a spottedTarget position
 		sensor.AddObservation(transform.localPosition);
+
+
+		Transform enemyTransform = null;
+		foreach (var target in hitData)
+		{
+			if(target.type == TargetType.Enemy)
+			{
+				enemyTransform = target.transform;
+			}
+		}
+
+		sensor.AddObservation(enemyTransform.position);
 		
 	}
 
@@ -36,6 +52,11 @@ public class DraculaAgent : Agent
 		// here you can:
 		// set reward
 		// end episode
+	}
+
+	public void OnSucessfulHit()
+	{
+		SetReward(1);
 	}
 
 	public override void OnEpisodeBegin()
