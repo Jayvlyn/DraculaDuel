@@ -855,7 +855,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   Owner: {fileID: 0}
-  ProjectileObject: {fileID: 5981307770684961258, guid: d770002f10f10cc4086b5809795bf260, type: 3}
+  ProjectileObject: {fileID: 7542811334153445678, guid: d770002f10f10cc4086b5809795bf260, type: 3}
   spawnTransform: {fileID: 53679068}
   FireCooldown: 1
   throwAngle: 0
