@@ -46,6 +46,11 @@ public class Health : MonoBehaviour
         return Mathf.CeilToInt(currentHealth);
     }
 
+    public float GetHealthPercent()
+    {
+        return currentHealth / maxHealth;
+    }
+
     public void Die()
     {
         OnDeath.Invoke();
