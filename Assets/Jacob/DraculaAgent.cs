@@ -61,6 +61,8 @@ public class DraculaAgent : Agent
 		{
 			//1
 			sensor.AddObservation(enemyTransform.localPosition);
+
+			AddReward(2);
 		}
 		else
 		{
@@ -74,18 +76,16 @@ public class DraculaAgent : Agent
 		sensor.AddObservation(closestWallHit);
 		//4
 		sensor.AddObservation(wallCount);
-
-
-
-
 		//5
 		sensor.AddObservation(health.currentHealth);
-
 		//6
 		sensor.AddObservation(spawnTransform.localPosition);
 
 		float distFromSpawn = Vector3.Distance(spawnTransform.localPosition, transform.localPosition);
-		AddReward(distFromSpawn * 0.33f);
+		if(distFromSpawn < 5)
+		{
+			AddReward(distFromSpawn);
+		}
 		//7
 		sensor.AddObservation(distFromSpawn);
 
