@@ -7,11 +7,11 @@ public class WeaponProjectile : MonoBehaviour
     public string targetTag;
     public GameObject projectile;
 
-    // Update is called once per frame
-    void Update()
+    protected Rigidbody rb;
+
+    private void Start()
     {
-        // Rotate the stake based on it's velocity ??
-        //transform.RotateAround(transform.position,)
+        rb = GetComponent<Rigidbody>();
     }
 
     void SetOwner(DraculaAgent owner)
