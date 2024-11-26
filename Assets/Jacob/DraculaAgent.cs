@@ -120,14 +120,9 @@ public class DraculaAgent : Agent
 
 	}
 
-	public void HitSuccess(float dps)
+	public void HitSuccess(AgentHitRecieveData data)
 	{
 		AddReward(1);
-	}
-
-	public void HitMiss(float dps)
-	{
-		AddReward(-0.2f);
 	}
 
 	public override void OnEpisodeBegin()

@@ -3,7 +3,7 @@ using UnityEngine;
 public class WeaponProjectile : MonoBehaviour
 {
     // Start is called once before the first execution of Update after the MonoBehaviour is created
-    public DraculaAgent Owner;
+    public WeaponHitReciever Owner;
     public string targetTag;
     public GameObject projectile;
 
@@ -14,7 +14,7 @@ public class WeaponProjectile : MonoBehaviour
         rb = GetComponent<Rigidbody>();
     }
 
-    void SetOwner(DraculaAgent owner)
+    void SetOwner(WeaponHitReciever owner)
     {
         Owner = owner;
     }
@@ -23,8 +23,9 @@ public class WeaponProjectile : MonoBehaviour
     {
         if (other.gameObject.CompareTag(targetTag))
         {
-            other.GetComponent<Health>().ApplyDamage(1);
-            Owner.HitSuccess(0);
+            Health h = other.GetComponent<Health>();
+            h.ApplyDamage(1);
+            Owner.ReceiveHit(true, h.GetHealthPercent());
             Destroy(gameObject);
             return;
         }
@@ -32,7 +33,7 @@ public class WeaponProjectile : MonoBehaviour
         if (!other.gameObject.CompareTag(this.gameObject.tag))
         {
             Destroy(this.gameObject);
-            Owner.HitMiss(0);
+            Owner.ReceiveHit(false, 100);
             return;
         }
     }
