@@ -21,6 +21,8 @@ public class DraculaAgent : Agent
 	 * 3: closest wall hit pos
 	 * 4: wall count
 	 * 5: this health
+	 * 6: spawn location
+	 * 7: distance from spawn
 	 */
 
 	public override void CollectObservations(VectorSensor sensor)
@@ -78,6 +80,14 @@ public class DraculaAgent : Agent
 
 		//5
 		sensor.AddObservation(health.currentHealth);
+
+		//6
+		sensor.AddObservation(spawnTransform.localPosition);
+
+		float distFromSpawn = Vector3.Distance(spawnTransform.localPosition, transform.localPosition);
+		AddReward(distFromSpawn * 0.33f);
+		//7
+		sensor.AddObservation(distFromSpawn);
 
 		if(health.currentHealth <= 0)
 		{
