@@ -23,6 +23,7 @@ public class DraculaAgent : Agent
 	 * 5: this health
 	 * 6: spawn location
 	 * 7: distance from spawn
+	 * 8: DPS
 	 */
 
 	public override void CollectObservations(VectorSensor sensor)
@@ -89,6 +90,9 @@ public class DraculaAgent : Agent
 		//7
 		sensor.AddObservation(distFromSpawn);
 
+		//8
+		sensor.AddObservation(latestData.DPS);
+
 		if(health.currentHealth <= 0)
 		{
 			AddReward(-10);
@@ -123,7 +127,14 @@ public class DraculaAgent : Agent
 	AgentHitRecieveData latestData;
 	public void HitSuccess(AgentHitRecieveData data)
 	{
-		AddReward(1);
+		latestData = data;
+		if(data.healthPercent <= 0)
+		{
+			AddReward(10);
+			EndEpisode();
+		}
+
+
 	}
 
 	public override void OnEpisodeBegin()
