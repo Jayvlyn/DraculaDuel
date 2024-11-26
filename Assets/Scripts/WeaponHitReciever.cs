@@ -22,7 +22,7 @@ public class WeaponHitReciever : MonoBehaviour
                 misses++;
             }
         }
-        _draculaAgent.HitSuccess(new AgentHitRecieveData() { hits = hits, misses = misses, healthPercent = healthPercent });
+        _draculaAgent.HitSuccess(new AgentHitRecieveData() { hits = hits, misses = misses, healthPercent = healthPercent }, success);
     }
 
     [SerializeField] private float secondsForDPS = 10;
