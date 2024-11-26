@@ -1122,7 +1122,7 @@ GameObject:
   - component: {fileID: 5398030911098124740}
   m_Layer: 0
   m_Name: Dummy
-  m_TagString: Enemy
+  m_TagString: TeamRed
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -1461,7 +1461,7 @@ GameObject:
   - component: {fileID: 4912397666528474753}
   m_Layer: 0
   m_Name: Floor
-  m_TagString: Wall
+  m_TagString: Floor
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -1822,6 +1822,10 @@ PrefabInstance:
     - target: {fileID: 3071216243321392796, guid: 73a6082237e1d344fbb4b2d0a44e2dce, type: 3}
       propertyPath: m_Name
       value: DraculaAgent
+      objectReference: {fileID: 0}
+    - target: {fileID: 3071216243321392796, guid: 73a6082237e1d344fbb4b2d0a44e2dce, type: 3}
+      propertyPath: m_TagString
+      value: TeamBlue
       objectReference: {fileID: 0}
     - target: {fileID: 3403802203256542099, guid: 73a6082237e1d344fbb4b2d0a44e2dce, type: 3}
       propertyPath: m_LocalPosition.x

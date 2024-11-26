@@ -6,6 +6,10 @@ TagManager:
   tags:
   - Enemy
   - Wall
+  - TeamRed
+  - TeamBlue
+  - Floor
+  - Pain
   layers:
   - Default
   - TransparentFX
