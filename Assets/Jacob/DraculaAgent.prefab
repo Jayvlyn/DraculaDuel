@@ -20,6 +20,8 @@ GameObject:
   - component: {fileID: 3833565948709092874}
   - component: {fileID: 449016842225948709}
   - component: {fileID: 2907569846252368908}
+  - component: {fileID: 4693754023155464837}
+  - component: {fileID: 725497130558574027}
   m_Layer: 0
   m_Name: DraculaAgent
   m_TagString: Untagged
@@ -212,6 +214,7 @@ MonoBehaviour:
   perception: {fileID: 424526028061843594}
   weapon: {fileID: 449016842225948709}
   spawnTransform: {fileID: 0}
+  health: {fileID: 725497130558574027}
 --- !u!114 &424526028061843594
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -276,6 +279,37 @@ MonoBehaviour:
   DecisionPeriod: 5
   DecisionStep: 0
   TakeActionsBetweenDecisions: 1
+--- !u!114 &4693754023155464837
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 3071216243321392796}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 61ab2dd66961de04ea43013d24c3e0a6, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  secondsForDPS: 10
+  _draculaAgent: {fileID: 6586029050305723491}
+--- !u!114 &725497130558574027
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 3071216243321392796}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 3880204ca7586364d9426bd73f2e3816, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  maxHealth: 100
+  currentHealth: 100
+  OnDeath:
+    m_PersistentCalls:
+      m_Calls: []
 --- !u!1 &4272570842700350292
 GameObject:
   m_ObjectHideFlags: 0

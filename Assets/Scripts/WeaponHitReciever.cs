@@ -9,7 +9,7 @@ public class WeaponHitReciever : MonoBehaviour
     {
         if(success) currentDPS += 1;
         hitQueue.Enqueue(new ProjectileHitData(Time.time, success, healthPercent));
-        //_draculaAgent.HitSuccess(new AgentHitRecieveData() { DPS = currentDPS, healthPercent = healthPercent });
+        _draculaAgent.HitSuccess(new AgentHitRecieveData() { DPS = currentDPS, healthPercent = healthPercent });
     }
 
     [SerializeField] private float secondsForDPS = 10;
