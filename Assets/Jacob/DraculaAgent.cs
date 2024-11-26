@@ -125,16 +125,20 @@ public class DraculaAgent : Agent
 	}
 
 	AgentHitRecieveData latestData;
-	public void HitSuccess(AgentHitRecieveData data)
+	public void HitSuccess(AgentHitRecieveData data, bool hitSuccess)
 	{
 		latestData = data;
-		if(data.healthPercent <= 0)
+
+		if(hitSuccess)
 		{
-			AddReward(10);
-			EndEpisode();
+			if(data.healthPercent <= 0)
+			{
+				AddReward(10);
+				EndEpisode();
+			}
 		}
 
-
+		AddReward(data.hits - (data.misses - 1) * 0.5f);
 	}
 
 	public override void OnEpisodeBegin()
