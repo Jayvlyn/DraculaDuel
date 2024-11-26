@@ -10,13 +10,17 @@ public class DraculaAgent : Agent
 	public AIPerception perception;
 	public AgentWeapon weapon;
 	public Transform spawnTransform;
+	public Health health;
 
 
 	/*
 	 * Observations:
-	 * 1: This Agent Position
-	 * 2: Enemy Position, 0 if it cant see enemy
-	 * 
+	 * 0: This Agent Position
+	 * 1: Enemy Position, 0 if it cant see enemy
+	 * 2: closest wall hit dist
+	 * 3: closest wall hit pos
+	 * 4: wall count
+	 * 5: this health
 	 */
 
 	public override void CollectObservations(VectorSensor sensor)
@@ -25,28 +29,61 @@ public class DraculaAgent : Agent
 
 		List<TargetHitData> hitData = perception.PerceiveTargets(transform.forward);
 
-		// add other important observations that the ai needs, like a spottedTarget position
+		// 0
 		sensor.AddObservation(transform.localPosition);
 
-
+		
 		Transform enemyTransform = null;
+		Vector3 closestWallHit = Vector3.zero;
+		float closestWallHitDist = float.PositiveInfinity;
+		int wallCount = 0;
 		foreach (var target in hitData)
 		{
 			if(target.type == TargetType.Enemy)
 			{
 				enemyTransform = target.transform;
 			}
+			else if (target.type == TargetType.Wall)
+			{
+				wallCount++;
+				float dist = Vector3.Distance(target.transform.localPosition, transform.localPosition);
+				if (dist < closestWallHitDist)
+				{
+					closestWallHitDist = dist;
+					closestWallHit = target.transform.localPosition;
+				}
+			}
 		}
 
 		if (enemyTransform != null)
 		{
-			sensor.AddObservation(enemyTransform.position);
+			//1
+			sensor.AddObservation(enemyTransform.localPosition);
 		}
 		else
 		{
+			//1
 			sensor.AddObservation(Vector3.zero);
 		}
-		
+
+		//2
+		sensor.AddObservation(closestWallHitDist);
+		//3
+		sensor.AddObservation(closestWallHit);
+		//4
+		sensor.AddObservation(wallCount);
+
+
+
+
+		//5
+		sensor.AddObservation(health.currentHealth);
+
+		if(health.currentHealth <= 0)
+		{
+			AddReward(-10);
+			EndEpisode();
+		}
 	}
 
 	public override void OnActionReceived(ActionBuffers actions)
@@ -59,6 +96,8 @@ public class DraculaAgent : Agent
 		direction.x = actions.ContinuousActions[0];
 		direction.z = actions.ContinuousActions[1];
 		turnAngle = actions.ContinuousActions[2];
+		weapon.throwAngle += actions.ContinuousActions[3];
+		weapon.throwPower += actions.ContinuousActions[4];
 
 		characterMovement.Move(direction);
 		characterMovement.Turn(turnAngle);
@@ -69,9 +108,6 @@ public class DraculaAgent : Agent
 			weapon.FireWeapon();
 		}
 
-		// here you can:
-		// set reward
-		// end episode
 	}
 
 	public void HitSuccess()
@@ -109,6 +145,8 @@ public class DraculaAgent : Agent
 		continuousActions[0] = Input.GetAxis("Horizontal");
 		continuousActions[1] = Input.GetAxis("Vertical");
 		continuousActions[2] = Input.GetAxis("Yaw");
+		continuousActions[3] = Input.GetAxis("ThrowAngle");
+		continuousActions[4] = Input.GetAxis("ThrowPower");
 
 		var discreteActions = actionsOut.DiscreteActions;
 		Debug.Log((Input.GetButton("Jump")) ? 1 : 0);
