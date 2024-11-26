@@ -138,7 +138,7 @@ public class DraculaAgent : Agent
 			}
 		}
 
-		AddReward(data.hits - (data.misses - 1) * 0.5f);
+		AddReward(data.hits - (data.misses - 1) * 1.5f);
 	}
 
 	public override void OnEpisodeBegin()
