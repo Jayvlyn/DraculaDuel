@@ -24,7 +24,7 @@ public class WeaponProjectile : MonoBehaviour
         if (other.gameObject.CompareTag(targetTag))
         {
             other.GetComponent<Health>().ApplyDamage(1);
-            Owner.HitSuccess();
+            Owner.HitSuccess(0);
             Destroy(gameObject);
             return;
         }
@@ -32,7 +32,7 @@ public class WeaponProjectile : MonoBehaviour
         if (!other.gameObject.CompareTag(this.gameObject.tag))
         {
             Destroy(this.gameObject);
-            Owner.HitMiss();
+            Owner.HitMiss(0);
             return;
         }
     }

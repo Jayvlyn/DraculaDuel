@@ -110,12 +110,12 @@ public class DraculaAgent : Agent
 
 	}
 
-	public void HitSuccess()
+	public void HitSuccess(float dps)
 	{
 		AddReward(1);
 	}
 
-	public void HitMiss()
+	public void HitMiss(float dps)
 	{
 		AddReward(-0.2f);
 	}
