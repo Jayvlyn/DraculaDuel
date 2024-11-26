@@ -120,6 +120,7 @@ public class DraculaAgent : Agent
 
 	}
 
+	AgentHitRecieveData latestData;
 	public void HitSuccess(AgentHitRecieveData data)
 	{
 		AddReward(1);
