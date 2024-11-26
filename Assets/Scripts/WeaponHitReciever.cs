@@ -4,12 +4,25 @@ using UnityEngine;
 
 public class WeaponHitReciever : MonoBehaviour
 {
-    private Queue<ProjectileHitData> hitQueue = new Queue<ProjectileHitData>();
+    private List<ProjectileHitData> hitQueue = new List<ProjectileHitData>();
     public void ReceiveHit(bool success, float healthPercent)
     {
         if(success) currentDPS += 1;
-        hitQueue.Enqueue(new ProjectileHitData(Time.time, success, healthPercent));
-        _draculaAgent.HitSuccess(new AgentHitRecieveData() { DPS = currentDPS, healthPercent = healthPercent });
+        hitQueue.Add(new ProjectileHitData(Time.time, success, healthPercent));
+        int misses = 0;
+        int hits = 0;
+        foreach (var hit in hitQueue)
+        {
+            if (hit.success)
+            {
+                hits++;
+            }
+            else
+            {
+                misses++;
+            }
+        }
+        _draculaAgent.HitSuccess(new AgentHitRecieveData() { hits = hits, misses = misses, healthPercent = healthPercent });
     }
 
     [SerializeField] private float secondsForDPS = 10;
@@ -21,9 +34,10 @@ public class WeaponHitReciever : MonoBehaviour
     {
         if (hitQueue.Count > 0)
         {
-            if (hitQueue.Peek().time < Time.time - secondsForDPS)
+            if (hitQueue[0].time < Time.time - secondsForDPS)
             {
-                currentDPS -= hitQueue.Dequeue().success ? 1 : 0;
+                currentDPS -= hitQueue[0].success ? 1 : 0;
+                hitQueue.RemoveAt(0);
             }
         }
     }
@@ -45,6 +59,7 @@ public class ProjectileHitData
 
 public class AgentHitRecieveData
 {
-    public float DPS;
+    public int hits;
+    public int misses;
     public float healthPercent;
 }
