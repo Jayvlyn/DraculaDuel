@@ -9,6 +9,7 @@ public class DraculaAgent : Agent
 	public CharacterMovement characterMovement;
 	public AIPerception perception;
 	public AgentWeapon weapon;
+	public AgentWeapon weapon2;
 	public Transform spawnTransform;
 	public Health health;
 
@@ -23,7 +24,7 @@ public class DraculaAgent : Agent
 	 * 5: this health
 	 * 6: spawn location
 	 * 7: distance from spawn
-	 * 8: DPS
+	 * 8: hit percent
 	 */
 
 	public override void CollectObservations(VectorSensor sensor)
@@ -91,7 +92,7 @@ public class DraculaAgent : Agent
 		sensor.AddObservation(distFromSpawn);
 
 		//8
-		sensor.AddObservation(latestData.DPS);
+		sensor.AddObservation((float)latestData.hits / (latestData.hits + latestData.misses));
 
 		if(health.currentHealth <= 0)
 		{
