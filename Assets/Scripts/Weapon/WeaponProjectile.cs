@@ -4,7 +4,7 @@ public class WeaponProjectile : MonoBehaviour
 {
     // Start is called once before the first execution of Update after the MonoBehaviour is created
     public WeaponHitReciever Owner;
-    public string targetTag;
+    [SerializeField] string targetTag;
     public GameObject projectile;
 
     protected Rigidbody rb;
@@ -14,7 +14,7 @@ public class WeaponProjectile : MonoBehaviour
         rb = GetComponent<Rigidbody>();
     }
 
-    void SetOwner(WeaponHitReciever owner)
+    public void SetOwner(WeaponHitReciever owner)
     {
         Owner = owner;
     }

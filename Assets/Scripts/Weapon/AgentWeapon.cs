@@ -3,10 +3,10 @@ using UnityEngine;
 public class AgentWeapon : MonoBehaviour
 {
     // Start is called once before the first execution of Update after the MonoBehaviour is created
-    [SerializeField] public DraculaAgent Owner;
-    [SerializeField] public GameObject ProjectileObject;
-    [SerializeField] public Transform spawnTransform;
-    [SerializeField] public float FireCooldown = 0.5f;
+    [SerializeField] WeaponHitReciever Owner;
+    [SerializeField] GameObject ProjectileObject;
+    [SerializeField] Transform spawnTransform;
+    [SerializeField] float FireCooldown = 0.5f;
 
     // Maybe
     private bool isReady = true;
@@ -51,6 +51,8 @@ public class AgentWeapon : MonoBehaviour
 
             // Pew
             GameObject newProjectile = Instantiate(ProjectileObject, tempTransform.position, tempTransform.rotation);
+            WeaponProjectile wp = newProjectile.GetComponent<WeaponProjectile>();
+            wp.SetOwner(Owner);
 
             newProjectile.GetComponent<Rigidbody>().AddForce(force * throwPower);
 

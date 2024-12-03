@@ -119,7 +119,7 @@ NavMeshSettings:
     debug:
       m_Flags: 0
   m_NavMeshData: {fileID: 0}
---- !u!1001 &389415295
+--- !u!1001 &2418241
 PrefabInstance:
   m_ObjectHideFlags: 0
   serializedVersion: 2
@@ -129,68 +129,7 @@ PrefabInstance:
     m_Modifications:
     - target: {fileID: 3455300935189126714, guid: 0a6fbc6a80439c44e8fa5c60397ade7e, type: 3}
       propertyPath: m_LocalPosition.x
-      value: 30
-      objectReference: {fileID: 0}
-    - target: {fileID: 3455300935189126714, guid: 0a6fbc6a80439c44e8fa5c60397ade7e, type: 3}
-      propertyPath: m_LocalPosition.y
-      value: 60
-      objectReference: {fileID: 0}
-    - target: {fileID: 3455300935189126714, guid: 0a6fbc6a80439c44e8fa5c60397ade7e, type: 3}
-      propertyPath: m_LocalPosition.z
-      value: 30
-      objectReference: {fileID: 0}
-    - target: {fileID: 3455300935189126714, guid: 0a6fbc6a80439c44e8fa5c60397ade7e, type: 3}
-      propertyPath: m_LocalRotation.w
-      value: 1
-      objectReference: {fileID: 0}
-    - target: {fileID: 3455300935189126714, guid: 0a6fbc6a80439c44e8fa5c60397ade7e, type: 3}
-      propertyPath: m_LocalRotation.x
-      value: 0
-      objectReference: {fileID: 0}
-    - target: {fileID: 3455300935189126714, guid: 0a6fbc6a80439c44e8fa5c60397ade7e, type: 3}
-      propertyPath: m_LocalRotation.y
-      value: 0
-      objectReference: {fileID: 0}
-    - target: {fileID: 3455300935189126714, guid: 0a6fbc6a80439c44e8fa5c60397ade7e, type: 3}
-      propertyPath: m_LocalRotation.z
-      value: 0
-      objectReference: {fileID: 0}
-    - target: {fileID: 3455300935189126714, guid: 0a6fbc6a80439c44e8fa5c60397ade7e, type: 3}
-      propertyPath: m_LocalEulerAnglesHint.x
-      value: 0
-      objectReference: {fileID: 0}
-    - target: {fileID: 3455300935189126714, guid: 0a6fbc6a80439c44e8fa5c60397ade7e, type: 3}
-      propertyPath: m_LocalEulerAnglesHint.y
-      value: 0
-      objectReference: {fileID: 0}
-    - target: {fileID: 3455300935189126714, guid: 0a6fbc6a80439c44e8fa5c60397ade7e, type: 3}
-      propertyPath: m_LocalEulerAnglesHint.z
-      value: 0
-      objectReference: {fileID: 0}
-    - target: {fileID: 4079424974632926139, guid: 0a6fbc6a80439c44e8fa5c60397ade7e, type: 3}
-      propertyPath: m_Name
-      value: Dojo (23)
-      objectReference: {fileID: 0}
-    - target: {fileID: 4079424974632926139, guid: 0a6fbc6a80439c44e8fa5c60397ade7e, type: 3}
-      propertyPath: m_IsActive
-      value: 0
-      objectReference: {fileID: 0}
-    m_RemovedComponents: []
-    m_RemovedGameObjects: []
-    m_AddedGameObjects: []
-    m_AddedComponents: []
-  m_SourcePrefab: {fileID: 100100000, guid: 0a6fbc6a80439c44e8fa5c60397ade7e, type: 3}
---- !u!1001 &413004978
-PrefabInstance:
-  m_ObjectHideFlags: 0
-  serializedVersion: 2
-  m_Modification:
-    serializedVersion: 3
-    m_TransformParent: {fileID: 0}
-    m_Modifications:
-    - target: {fileID: 3455300935189126714, guid: 0a6fbc6a80439c44e8fa5c60397ade7e, type: 3}
-      propertyPath: m_LocalPosition.x
-      value: 60
+      value: 214.3
       objectReference: {fileID: 0}
     - target: {fileID: 3455300935189126714, guid: 0a6fbc6a80439c44e8fa5c60397ade7e, type: 3}
       propertyPath: m_LocalPosition.y
@@ -198,68 +137,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 3455300935189126714, guid: 0a6fbc6a80439c44e8fa5c60397ade7e, type: 3}
       propertyPath: m_LocalPosition.z
-      value: 30
-      objectReference: {fileID: 0}
-    - target: {fileID: 3455300935189126714, guid: 0a6fbc6a80439c44e8fa5c60397ade7e, type: 3}
-      propertyPath: m_LocalRotation.w
-      value: 1
-      objectReference: {fileID: 0}
-    - target: {fileID: 3455300935189126714, guid: 0a6fbc6a80439c44e8fa5c60397ade7e, type: 3}
-      propertyPath: m_LocalRotation.x
-      value: 0
-      objectReference: {fileID: 0}
-    - target: {fileID: 3455300935189126714, guid: 0a6fbc6a80439c44e8fa5c60397ade7e, type: 3}
-      propertyPath: m_LocalRotation.y
-      value: 0
-      objectReference: {fileID: 0}
-    - target: {fileID: 3455300935189126714, guid: 0a6fbc6a80439c44e8fa5c60397ade7e, type: 3}
-      propertyPath: m_LocalRotation.z
-      value: 0
-      objectReference: {fileID: 0}
-    - target: {fileID: 3455300935189126714, guid: 0a6fbc6a80439c44e8fa5c60397ade7e, type: 3}
-      propertyPath: m_LocalEulerAnglesHint.x
-      value: 0
-      objectReference: {fileID: 0}
-    - target: {fileID: 3455300935189126714, guid: 0a6fbc6a80439c44e8fa5c60397ade7e, type: 3}
-      propertyPath: m_LocalEulerAnglesHint.y
-      value: 0
-      objectReference: {fileID: 0}
-    - target: {fileID: 3455300935189126714, guid: 0a6fbc6a80439c44e8fa5c60397ade7e, type: 3}
-      propertyPath: m_LocalEulerAnglesHint.z
-      value: 0
-      objectReference: {fileID: 0}
-    - target: {fileID: 4079424974632926139, guid: 0a6fbc6a80439c44e8fa5c60397ade7e, type: 3}
-      propertyPath: m_Name
-      value: Dojo (5)
-      objectReference: {fileID: 0}
-    - target: {fileID: 4079424974632926139, guid: 0a6fbc6a80439c44e8fa5c60397ade7e, type: 3}
-      propertyPath: m_IsActive
-      value: 0
-      objectReference: {fileID: 0}
-    m_RemovedComponents: []
-    m_RemovedGameObjects: []
-    m_AddedGameObjects: []
-    m_AddedComponents: []
-  m_SourcePrefab: {fileID: 100100000, guid: 0a6fbc6a80439c44e8fa5c60397ade7e, type: 3}
---- !u!1001 &481998871
-PrefabInstance:
-  m_ObjectHideFlags: 0
-  serializedVersion: 2
-  m_Modification:
-    serializedVersion: 3
-    m_TransformParent: {fileID: 0}
-    m_Modifications:
-    - target: {fileID: 3455300935189126714, guid: 0a6fbc6a80439c44e8fa5c60397ade7e, type: 3}
-      propertyPath: m_LocalPosition.x
-      value: 30
-      objectReference: {fileID: 0}
-    - target: {fileID: 3455300935189126714, guid: 0a6fbc6a80439c44e8fa5c60397ade7e, type: 3}
-      propertyPath: m_LocalPosition.y
-      value: 60
-      objectReference: {fileID: 0}
-    - target: {fileID: 3455300935189126714, guid: 0a6fbc6a80439c44e8fa5c60397ade7e, type: 3}
-      propertyPath: m_LocalPosition.z
-      value: 0
+      value: -64.2
       objectReference: {fileID: 0}
     - target: {fileID: 3455300935189126714, guid: 0a6fbc6a80439c44e8fa5c60397ade7e, type: 3}
       propertyPath: m_LocalRotation.w
@@ -293,16 +171,20 @@ PrefabInstance:
       propertyPath: m_Name
       value: Dojo (21)
       objectReference: {fileID: 0}
-    - target: {fileID: 4079424974632926139, guid: 0a6fbc6a80439c44e8fa5c60397ade7e, type: 3}
-      propertyPath: m_IsActive
-      value: 0
+    - target: {fileID: 4737009618145295304, guid: 0a6fbc6a80439c44e8fa5c60397ade7e, type: 3}
+      propertyPath: m_TagString
+      value: TeamRed
+      objectReference: {fileID: 0}
+    - target: {fileID: 8479009532016358613, guid: 0a6fbc6a80439c44e8fa5c60397ade7e, type: 3}
+      propertyPath: m_TagString
+      value: TeamBlue
       objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
     m_AddedGameObjects: []
     m_AddedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 0a6fbc6a80439c44e8fa5c60397ade7e, type: 3}
---- !u!1001 &506069903
+--- !u!1001 &56828702
 PrefabInstance:
   m_ObjectHideFlags: 0
   serializedVersion: 2
@@ -312,15 +194,15 @@ PrefabInstance:
     m_Modifications:
     - target: {fileID: 3455300935189126714, guid: 0a6fbc6a80439c44e8fa5c60397ade7e, type: 3}
       propertyPath: m_LocalPosition.x
-      value: 0
+      value: 214.3
       objectReference: {fileID: 0}
     - target: {fileID: 3455300935189126714, guid: 0a6fbc6a80439c44e8fa5c60397ade7e, type: 3}
       propertyPath: m_LocalPosition.y
-      value: 60
+      value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 3455300935189126714, guid: 0a6fbc6a80439c44e8fa5c60397ade7e, type: 3}
       propertyPath: m_LocalPosition.z
-      value: 60
+      value: -32.2
       objectReference: {fileID: 0}
     - target: {fileID: 3455300935189126714, guid: 0a6fbc6a80439c44e8fa5c60397ade7e, type: 3}
       propertyPath: m_LocalRotation.w
@@ -352,11 +234,210 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 4079424974632926139, guid: 0a6fbc6a80439c44e8fa5c60397ade7e, type: 3}
       propertyPath: m_Name
-      value: Dojo (19)
+      value: Dojo (13)
+      objectReference: {fileID: 0}
+    - target: {fileID: 4737009618145295304, guid: 0a6fbc6a80439c44e8fa5c60397ade7e, type: 3}
+      propertyPath: m_TagString
+      value: TeamRed
+      objectReference: {fileID: 0}
+    - target: {fileID: 8479009532016358613, guid: 0a6fbc6a80439c44e8fa5c60397ade7e, type: 3}
+      propertyPath: m_TagString
+      value: TeamBlue
+      objectReference: {fileID: 0}
+    m_RemovedComponents: []
+    m_RemovedGameObjects: []
+    m_AddedGameObjects: []
+    m_AddedComponents: []
+  m_SourcePrefab: {fileID: 100100000, guid: 0a6fbc6a80439c44e8fa5c60397ade7e, type: 3}
+--- !u!1001 &108402015
+PrefabInstance:
+  m_ObjectHideFlags: 0
+  serializedVersion: 2
+  m_Modification:
+    serializedVersion: 3
+    m_TransformParent: {fileID: 0}
+    m_Modifications:
+    - target: {fileID: 3455300935189126714, guid: 0a6fbc6a80439c44e8fa5c60397ade7e, type: 3}
+      propertyPath: m_LocalPosition.x
+      value: 30.5
+      objectReference: {fileID: 0}
+    - target: {fileID: 3455300935189126714, guid: 0a6fbc6a80439c44e8fa5c60397ade7e, type: 3}
+      propertyPath: m_LocalPosition.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 3455300935189126714, guid: 0a6fbc6a80439c44e8fa5c60397ade7e, type: 3}
+      propertyPath: m_LocalPosition.z
+      value: -32.2
+      objectReference: {fileID: 0}
+    - target: {fileID: 3455300935189126714, guid: 0a6fbc6a80439c44e8fa5c60397ade7e, type: 3}
+      propertyPath: m_LocalRotation.w
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 3455300935189126714, guid: 0a6fbc6a80439c44e8fa5c60397ade7e, type: 3}
+      propertyPath: m_LocalRotation.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 3455300935189126714, guid: 0a6fbc6a80439c44e8fa5c60397ade7e, type: 3}
+      propertyPath: m_LocalRotation.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 3455300935189126714, guid: 0a6fbc6a80439c44e8fa5c60397ade7e, type: 3}
+      propertyPath: m_LocalRotation.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 3455300935189126714, guid: 0a6fbc6a80439c44e8fa5c60397ade7e, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 3455300935189126714, guid: 0a6fbc6a80439c44e8fa5c60397ade7e, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 3455300935189126714, guid: 0a6fbc6a80439c44e8fa5c60397ade7e, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.z
+      value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 4079424974632926139, guid: 0a6fbc6a80439c44e8fa5c60397ade7e, type: 3}
-      propertyPath: m_IsActive
+      propertyPath: m_Name
+      value: Dojo (9)
+      objectReference: {fileID: 0}
+    - target: {fileID: 4737009618145295304, guid: 0a6fbc6a80439c44e8fa5c60397ade7e, type: 3}
+      propertyPath: m_TagString
+      value: TeamRed
+      objectReference: {fileID: 0}
+    - target: {fileID: 8479009532016358613, guid: 0a6fbc6a80439c44e8fa5c60397ade7e, type: 3}
+      propertyPath: m_TagString
+      value: TeamBlue
+      objectReference: {fileID: 0}
+    m_RemovedComponents: []
+    m_RemovedGameObjects: []
+    m_AddedGameObjects: []
+    m_AddedComponents: []
+  m_SourcePrefab: {fileID: 100100000, guid: 0a6fbc6a80439c44e8fa5c60397ade7e, type: 3}
+--- !u!1001 &227879853
+PrefabInstance:
+  m_ObjectHideFlags: 0
+  serializedVersion: 2
+  m_Modification:
+    serializedVersion: 3
+    m_TransformParent: {fileID: 0}
+    m_Modifications:
+    - target: {fileID: 3455300935189126714, guid: 0a6fbc6a80439c44e8fa5c60397ade7e, type: 3}
+      propertyPath: m_LocalPosition.x
+      value: 153.3
+      objectReference: {fileID: 0}
+    - target: {fileID: 3455300935189126714, guid: 0a6fbc6a80439c44e8fa5c60397ade7e, type: 3}
+      propertyPath: m_LocalPosition.y
       value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 3455300935189126714, guid: 0a6fbc6a80439c44e8fa5c60397ade7e, type: 3}
+      propertyPath: m_LocalPosition.z
+      value: -32.2
+      objectReference: {fileID: 0}
+    - target: {fileID: 3455300935189126714, guid: 0a6fbc6a80439c44e8fa5c60397ade7e, type: 3}
+      propertyPath: m_LocalRotation.w
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 3455300935189126714, guid: 0a6fbc6a80439c44e8fa5c60397ade7e, type: 3}
+      propertyPath: m_LocalRotation.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 3455300935189126714, guid: 0a6fbc6a80439c44e8fa5c60397ade7e, type: 3}
+      propertyPath: m_LocalRotation.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 3455300935189126714, guid: 0a6fbc6a80439c44e8fa5c60397ade7e, type: 3}
+      propertyPath: m_LocalRotation.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 3455300935189126714, guid: 0a6fbc6a80439c44e8fa5c60397ade7e, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 3455300935189126714, guid: 0a6fbc6a80439c44e8fa5c60397ade7e, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 3455300935189126714, guid: 0a6fbc6a80439c44e8fa5c60397ade7e, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 4079424974632926139, guid: 0a6fbc6a80439c44e8fa5c60397ade7e, type: 3}
+      propertyPath: m_Name
+      value: Dojo (11)
+      objectReference: {fileID: 0}
+    - target: {fileID: 4737009618145295304, guid: 0a6fbc6a80439c44e8fa5c60397ade7e, type: 3}
+      propertyPath: m_TagString
+      value: TeamRed
+      objectReference: {fileID: 0}
+    - target: {fileID: 8479009532016358613, guid: 0a6fbc6a80439c44e8fa5c60397ade7e, type: 3}
+      propertyPath: m_TagString
+      value: TeamBlue
+      objectReference: {fileID: 0}
+    m_RemovedComponents: []
+    m_RemovedGameObjects: []
+    m_AddedGameObjects: []
+    m_AddedComponents: []
+  m_SourcePrefab: {fileID: 100100000, guid: 0a6fbc6a80439c44e8fa5c60397ade7e, type: 3}
+--- !u!1001 &443759295
+PrefabInstance:
+  m_ObjectHideFlags: 0
+  serializedVersion: 2
+  m_Modification:
+    serializedVersion: 3
+    m_TransformParent: {fileID: 0}
+    m_Modifications:
+    - target: {fileID: 3455300935189126714, guid: 0a6fbc6a80439c44e8fa5c60397ade7e, type: 3}
+      propertyPath: m_LocalPosition.x
+      value: 153.3
+      objectReference: {fileID: 0}
+    - target: {fileID: 3455300935189126714, guid: 0a6fbc6a80439c44e8fa5c60397ade7e, type: 3}
+      propertyPath: m_LocalPosition.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 3455300935189126714, guid: 0a6fbc6a80439c44e8fa5c60397ade7e, type: 3}
+      propertyPath: m_LocalPosition.z
+      value: -99.3
+      objectReference: {fileID: 0}
+    - target: {fileID: 3455300935189126714, guid: 0a6fbc6a80439c44e8fa5c60397ade7e, type: 3}
+      propertyPath: m_LocalRotation.w
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 3455300935189126714, guid: 0a6fbc6a80439c44e8fa5c60397ade7e, type: 3}
+      propertyPath: m_LocalRotation.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 3455300935189126714, guid: 0a6fbc6a80439c44e8fa5c60397ade7e, type: 3}
+      propertyPath: m_LocalRotation.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 3455300935189126714, guid: 0a6fbc6a80439c44e8fa5c60397ade7e, type: 3}
+      propertyPath: m_LocalRotation.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 3455300935189126714, guid: 0a6fbc6a80439c44e8fa5c60397ade7e, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 3455300935189126714, guid: 0a6fbc6a80439c44e8fa5c60397ade7e, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 3455300935189126714, guid: 0a6fbc6a80439c44e8fa5c60397ade7e, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 4079424974632926139, guid: 0a6fbc6a80439c44e8fa5c60397ade7e, type: 3}
+      propertyPath: m_Name
+      value: Dojo (27)
+      objectReference: {fileID: 0}
+    - target: {fileID: 4737009618145295304, guid: 0a6fbc6a80439c44e8fa5c60397ade7e, type: 3}
+      propertyPath: m_TagString
+      value: TeamRed
+      objectReference: {fileID: 0}
+    - target: {fileID: 8479009532016358613, guid: 0a6fbc6a80439c44e8fa5c60397ade7e, type: 3}
+      propertyPath: m_TagString
+      value: TeamBlue
       objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
@@ -500,7 +581,7 @@ MonoBehaviour:
     m_MipBias: 0
     m_VarianceClampScale: 0.9
     m_ContrastAdaptiveSharpening: 0
---- !u!1001 &696934655
+--- !u!1001 &608284495
 PrefabInstance:
   m_ObjectHideFlags: 0
   serializedVersion: 2
@@ -510,7 +591,7 @@ PrefabInstance:
     m_Modifications:
     - target: {fileID: 3455300935189126714, guid: 0a6fbc6a80439c44e8fa5c60397ade7e, type: 3}
       propertyPath: m_LocalPosition.x
-      value: 30
+      value: 214.3
       objectReference: {fileID: 0}
     - target: {fileID: 3455300935189126714, guid: 0a6fbc6a80439c44e8fa5c60397ade7e, type: 3}
       propertyPath: m_LocalPosition.y
@@ -518,7 +599,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 3455300935189126714, guid: 0a6fbc6a80439c44e8fa5c60397ade7e, type: 3}
       propertyPath: m_LocalPosition.z
-      value: 30
+      value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 3455300935189126714, guid: 0a6fbc6a80439c44e8fa5c60397ade7e, type: 3}
       propertyPath: m_LocalRotation.w
@@ -550,18 +631,22 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 4079424974632926139, guid: 0a6fbc6a80439c44e8fa5c60397ade7e, type: 3}
       propertyPath: m_Name
-      value: Dojo (4)
+      value: Dojo (7)
       objectReference: {fileID: 0}
-    - target: {fileID: 4079424974632926139, guid: 0a6fbc6a80439c44e8fa5c60397ade7e, type: 3}
-      propertyPath: m_IsActive
-      value: 0
+    - target: {fileID: 4737009618145295304, guid: 0a6fbc6a80439c44e8fa5c60397ade7e, type: 3}
+      propertyPath: m_TagString
+      value: TeamRed
+      objectReference: {fileID: 0}
+    - target: {fileID: 8479009532016358613, guid: 0a6fbc6a80439c44e8fa5c60397ade7e, type: 3}
+      propertyPath: m_TagString
+      value: TeamBlue
       objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
     m_AddedGameObjects: []
     m_AddedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 0a6fbc6a80439c44e8fa5c60397ade7e, type: 3}
---- !u!1001 &719373517
+--- !u!1001 &612249449
 PrefabInstance:
   m_ObjectHideFlags: 0
   serializedVersion: 2
@@ -571,7 +656,7 @@ PrefabInstance:
     m_Modifications:
     - target: {fileID: 3455300935189126714, guid: 0a6fbc6a80439c44e8fa5c60397ade7e, type: 3}
       propertyPath: m_LocalPosition.x
-      value: 0
+      value: 214.3
       objectReference: {fileID: 0}
     - target: {fileID: 3455300935189126714, guid: 0a6fbc6a80439c44e8fa5c60397ade7e, type: 3}
       propertyPath: m_LocalPosition.y
@@ -579,7 +664,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 3455300935189126714, guid: 0a6fbc6a80439c44e8fa5c60397ade7e, type: 3}
       propertyPath: m_LocalPosition.z
-      value: 30
+      value: -99.3
       objectReference: {fileID: 0}
     - target: {fileID: 3455300935189126714, guid: 0a6fbc6a80439c44e8fa5c60397ade7e, type: 3}
       propertyPath: m_LocalRotation.w
@@ -611,194 +696,15 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 4079424974632926139, guid: 0a6fbc6a80439c44e8fa5c60397ade7e, type: 3}
       propertyPath: m_Name
-      value: Dojo (3)
+      value: Dojo (29)
       objectReference: {fileID: 0}
-    - target: {fileID: 4079424974632926139, guid: 0a6fbc6a80439c44e8fa5c60397ade7e, type: 3}
-      propertyPath: m_IsActive
-      value: 0
+    - target: {fileID: 4737009618145295304, guid: 0a6fbc6a80439c44e8fa5c60397ade7e, type: 3}
+      propertyPath: m_TagString
+      value: TeamRed
       objectReference: {fileID: 0}
-    m_RemovedComponents: []
-    m_RemovedGameObjects: []
-    m_AddedGameObjects: []
-    m_AddedComponents: []
-  m_SourcePrefab: {fileID: 100100000, guid: 0a6fbc6a80439c44e8fa5c60397ade7e, type: 3}
---- !u!1001 &787429002
-PrefabInstance:
-  m_ObjectHideFlags: 0
-  serializedVersion: 2
-  m_Modification:
-    serializedVersion: 3
-    m_TransformParent: {fileID: 0}
-    m_Modifications:
-    - target: {fileID: 3455300935189126714, guid: 0a6fbc6a80439c44e8fa5c60397ade7e, type: 3}
-      propertyPath: m_LocalPosition.x
-      value: 0
-      objectReference: {fileID: 0}
-    - target: {fileID: 3455300935189126714, guid: 0a6fbc6a80439c44e8fa5c60397ade7e, type: 3}
-      propertyPath: m_LocalPosition.y
-      value: 30
-      objectReference: {fileID: 0}
-    - target: {fileID: 3455300935189126714, guid: 0a6fbc6a80439c44e8fa5c60397ade7e, type: 3}
-      propertyPath: m_LocalPosition.z
-      value: 0
-      objectReference: {fileID: 0}
-    - target: {fileID: 3455300935189126714, guid: 0a6fbc6a80439c44e8fa5c60397ade7e, type: 3}
-      propertyPath: m_LocalRotation.w
-      value: 1
-      objectReference: {fileID: 0}
-    - target: {fileID: 3455300935189126714, guid: 0a6fbc6a80439c44e8fa5c60397ade7e, type: 3}
-      propertyPath: m_LocalRotation.x
-      value: 0
-      objectReference: {fileID: 0}
-    - target: {fileID: 3455300935189126714, guid: 0a6fbc6a80439c44e8fa5c60397ade7e, type: 3}
-      propertyPath: m_LocalRotation.y
-      value: 0
-      objectReference: {fileID: 0}
-    - target: {fileID: 3455300935189126714, guid: 0a6fbc6a80439c44e8fa5c60397ade7e, type: 3}
-      propertyPath: m_LocalRotation.z
-      value: 0
-      objectReference: {fileID: 0}
-    - target: {fileID: 3455300935189126714, guid: 0a6fbc6a80439c44e8fa5c60397ade7e, type: 3}
-      propertyPath: m_LocalEulerAnglesHint.x
-      value: 0
-      objectReference: {fileID: 0}
-    - target: {fileID: 3455300935189126714, guid: 0a6fbc6a80439c44e8fa5c60397ade7e, type: 3}
-      propertyPath: m_LocalEulerAnglesHint.y
-      value: 0
-      objectReference: {fileID: 0}
-    - target: {fileID: 3455300935189126714, guid: 0a6fbc6a80439c44e8fa5c60397ade7e, type: 3}
-      propertyPath: m_LocalEulerAnglesHint.z
-      value: 0
-      objectReference: {fileID: 0}
-    - target: {fileID: 4079424974632926139, guid: 0a6fbc6a80439c44e8fa5c60397ade7e, type: 3}
-      propertyPath: m_Name
-      value: Dojo (9)
-      objectReference: {fileID: 0}
-    - target: {fileID: 4079424974632926139, guid: 0a6fbc6a80439c44e8fa5c60397ade7e, type: 3}
-      propertyPath: m_IsActive
-      value: 0
-      objectReference: {fileID: 0}
-    m_RemovedComponents: []
-    m_RemovedGameObjects: []
-    m_AddedGameObjects: []
-    m_AddedComponents: []
-  m_SourcePrefab: {fileID: 100100000, guid: 0a6fbc6a80439c44e8fa5c60397ade7e, type: 3}
---- !u!1001 &803466892
-PrefabInstance:
-  m_ObjectHideFlags: 0
-  serializedVersion: 2
-  m_Modification:
-    serializedVersion: 3
-    m_TransformParent: {fileID: 0}
-    m_Modifications:
-    - target: {fileID: 3455300935189126714, guid: 0a6fbc6a80439c44e8fa5c60397ade7e, type: 3}
-      propertyPath: m_LocalPosition.x
-      value: 0
-      objectReference: {fileID: 0}
-    - target: {fileID: 3455300935189126714, guid: 0a6fbc6a80439c44e8fa5c60397ade7e, type: 3}
-      propertyPath: m_LocalPosition.y
-      value: 30
-      objectReference: {fileID: 0}
-    - target: {fileID: 3455300935189126714, guid: 0a6fbc6a80439c44e8fa5c60397ade7e, type: 3}
-      propertyPath: m_LocalPosition.z
-      value: 30
-      objectReference: {fileID: 0}
-    - target: {fileID: 3455300935189126714, guid: 0a6fbc6a80439c44e8fa5c60397ade7e, type: 3}
-      propertyPath: m_LocalRotation.w
-      value: 1
-      objectReference: {fileID: 0}
-    - target: {fileID: 3455300935189126714, guid: 0a6fbc6a80439c44e8fa5c60397ade7e, type: 3}
-      propertyPath: m_LocalRotation.x
-      value: 0
-      objectReference: {fileID: 0}
-    - target: {fileID: 3455300935189126714, guid: 0a6fbc6a80439c44e8fa5c60397ade7e, type: 3}
-      propertyPath: m_LocalRotation.y
-      value: 0
-      objectReference: {fileID: 0}
-    - target: {fileID: 3455300935189126714, guid: 0a6fbc6a80439c44e8fa5c60397ade7e, type: 3}
-      propertyPath: m_LocalRotation.z
-      value: 0
-      objectReference: {fileID: 0}
-    - target: {fileID: 3455300935189126714, guid: 0a6fbc6a80439c44e8fa5c60397ade7e, type: 3}
-      propertyPath: m_LocalEulerAnglesHint.x
-      value: 0
-      objectReference: {fileID: 0}
-    - target: {fileID: 3455300935189126714, guid: 0a6fbc6a80439c44e8fa5c60397ade7e, type: 3}
-      propertyPath: m_LocalEulerAnglesHint.y
-      value: 0
-      objectReference: {fileID: 0}
-    - target: {fileID: 3455300935189126714, guid: 0a6fbc6a80439c44e8fa5c60397ade7e, type: 3}
-      propertyPath: m_LocalEulerAnglesHint.z
-      value: 0
-      objectReference: {fileID: 0}
-    - target: {fileID: 4079424974632926139, guid: 0a6fbc6a80439c44e8fa5c60397ade7e, type: 3}
-      propertyPath: m_Name
-      value: Dojo (11)
-      objectReference: {fileID: 0}
-    - target: {fileID: 4079424974632926139, guid: 0a6fbc6a80439c44e8fa5c60397ade7e, type: 3}
-      propertyPath: m_IsActive
-      value: 0
-      objectReference: {fileID: 0}
-    m_RemovedComponents: []
-    m_RemovedGameObjects: []
-    m_AddedGameObjects: []
-    m_AddedComponents: []
-  m_SourcePrefab: {fileID: 100100000, guid: 0a6fbc6a80439c44e8fa5c60397ade7e, type: 3}
---- !u!1001 &805042842
-PrefabInstance:
-  m_ObjectHideFlags: 0
-  serializedVersion: 2
-  m_Modification:
-    serializedVersion: 3
-    m_TransformParent: {fileID: 0}
-    m_Modifications:
-    - target: {fileID: 3455300935189126714, guid: 0a6fbc6a80439c44e8fa5c60397ade7e, type: 3}
-      propertyPath: m_LocalPosition.x
-      value: 60
-      objectReference: {fileID: 0}
-    - target: {fileID: 3455300935189126714, guid: 0a6fbc6a80439c44e8fa5c60397ade7e, type: 3}
-      propertyPath: m_LocalPosition.y
-      value: 60
-      objectReference: {fileID: 0}
-    - target: {fileID: 3455300935189126714, guid: 0a6fbc6a80439c44e8fa5c60397ade7e, type: 3}
-      propertyPath: m_LocalPosition.z
-      value: 0
-      objectReference: {fileID: 0}
-    - target: {fileID: 3455300935189126714, guid: 0a6fbc6a80439c44e8fa5c60397ade7e, type: 3}
-      propertyPath: m_LocalRotation.w
-      value: 1
-      objectReference: {fileID: 0}
-    - target: {fileID: 3455300935189126714, guid: 0a6fbc6a80439c44e8fa5c60397ade7e, type: 3}
-      propertyPath: m_LocalRotation.x
-      value: 0
-      objectReference: {fileID: 0}
-    - target: {fileID: 3455300935189126714, guid: 0a6fbc6a80439c44e8fa5c60397ade7e, type: 3}
-      propertyPath: m_LocalRotation.y
-      value: 0
-      objectReference: {fileID: 0}
-    - target: {fileID: 3455300935189126714, guid: 0a6fbc6a80439c44e8fa5c60397ade7e, type: 3}
-      propertyPath: m_LocalRotation.z
-      value: 0
-      objectReference: {fileID: 0}
-    - target: {fileID: 3455300935189126714, guid: 0a6fbc6a80439c44e8fa5c60397ade7e, type: 3}
-      propertyPath: m_LocalEulerAnglesHint.x
-      value: 0
-      objectReference: {fileID: 0}
-    - target: {fileID: 3455300935189126714, guid: 0a6fbc6a80439c44e8fa5c60397ade7e, type: 3}
-      propertyPath: m_LocalEulerAnglesHint.y
-      value: 0
-      objectReference: {fileID: 0}
-    - target: {fileID: 3455300935189126714, guid: 0a6fbc6a80439c44e8fa5c60397ade7e, type: 3}
-      propertyPath: m_LocalEulerAnglesHint.z
-      value: 0
-      objectReference: {fileID: 0}
-    - target: {fileID: 4079424974632926139, guid: 0a6fbc6a80439c44e8fa5c60397ade7e, type: 3}
-      propertyPath: m_Name
-      value: Dojo (24)
-      objectReference: {fileID: 0}
-    - target: {fileID: 4079424974632926139, guid: 0a6fbc6a80439c44e8fa5c60397ade7e, type: 3}
-      propertyPath: m_IsActive
-      value: 0
+    - target: {fileID: 8479009532016358613, guid: 0a6fbc6a80439c44e8fa5c60397ade7e, type: 3}
+      propertyPath: m_TagString
+      value: TeamBlue
       objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
@@ -926,7 +832,7 @@ MonoBehaviour:
   m_LightCookieSize: {x: 1, y: 1}
   m_LightCookieOffset: {x: 0, y: 0}
   m_SoftShadowQuality: 0
---- !u!1001 &1236938489
+--- !u!1001 &887227268
 PrefabInstance:
   m_ObjectHideFlags: 0
   serializedVersion: 2
@@ -936,15 +842,15 @@ PrefabInstance:
     m_Modifications:
     - target: {fileID: 3455300935189126714, guid: 0a6fbc6a80439c44e8fa5c60397ade7e, type: 3}
       propertyPath: m_LocalPosition.x
-      value: 30
+      value: 62.8
       objectReference: {fileID: 0}
     - target: {fileID: 3455300935189126714, guid: 0a6fbc6a80439c44e8fa5c60397ade7e, type: 3}
       propertyPath: m_LocalPosition.y
-      value: 30
+      value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 3455300935189126714, guid: 0a6fbc6a80439c44e8fa5c60397ade7e, type: 3}
       propertyPath: m_LocalPosition.z
-      value: 60
+      value: -64.2
       objectReference: {fileID: 0}
     - target: {fileID: 3455300935189126714, guid: 0a6fbc6a80439c44e8fa5c60397ade7e, type: 3}
       propertyPath: m_LocalRotation.w
@@ -976,18 +882,22 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 4079424974632926139, guid: 0a6fbc6a80439c44e8fa5c60397ade7e, type: 3}
       propertyPath: m_Name
-      value: Dojo (13)
+      value: Dojo (22)
       objectReference: {fileID: 0}
-    - target: {fileID: 4079424974632926139, guid: 0a6fbc6a80439c44e8fa5c60397ade7e, type: 3}
-      propertyPath: m_IsActive
-      value: 0
+    - target: {fileID: 4737009618145295304, guid: 0a6fbc6a80439c44e8fa5c60397ade7e, type: 3}
+      propertyPath: m_TagString
+      value: TeamRed
+      objectReference: {fileID: 0}
+    - target: {fileID: 8479009532016358613, guid: 0a6fbc6a80439c44e8fa5c60397ade7e, type: 3}
+      propertyPath: m_TagString
+      value: TeamBlue
       objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
     m_AddedGameObjects: []
     m_AddedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 0a6fbc6a80439c44e8fa5c60397ade7e, type: 3}
---- !u!1001 &1291650194
+--- !u!1001 &1120708916
 PrefabInstance:
   m_ObjectHideFlags: 0
   serializedVersion: 2
@@ -997,556 +907,7 @@ PrefabInstance:
     m_Modifications:
     - target: {fileID: 3455300935189126714, guid: 0a6fbc6a80439c44e8fa5c60397ade7e, type: 3}
       propertyPath: m_LocalPosition.x
-      value: 0
-      objectReference: {fileID: 0}
-    - target: {fileID: 3455300935189126714, guid: 0a6fbc6a80439c44e8fa5c60397ade7e, type: 3}
-      propertyPath: m_LocalPosition.y
-      value: 0
-      objectReference: {fileID: 0}
-    - target: {fileID: 3455300935189126714, guid: 0a6fbc6a80439c44e8fa5c60397ade7e, type: 3}
-      propertyPath: m_LocalPosition.z
-      value: 60
-      objectReference: {fileID: 0}
-    - target: {fileID: 3455300935189126714, guid: 0a6fbc6a80439c44e8fa5c60397ade7e, type: 3}
-      propertyPath: m_LocalRotation.w
-      value: 1
-      objectReference: {fileID: 0}
-    - target: {fileID: 3455300935189126714, guid: 0a6fbc6a80439c44e8fa5c60397ade7e, type: 3}
-      propertyPath: m_LocalRotation.x
-      value: 0
-      objectReference: {fileID: 0}
-    - target: {fileID: 3455300935189126714, guid: 0a6fbc6a80439c44e8fa5c60397ade7e, type: 3}
-      propertyPath: m_LocalRotation.y
-      value: 0
-      objectReference: {fileID: 0}
-    - target: {fileID: 3455300935189126714, guid: 0a6fbc6a80439c44e8fa5c60397ade7e, type: 3}
-      propertyPath: m_LocalRotation.z
-      value: 0
-      objectReference: {fileID: 0}
-    - target: {fileID: 3455300935189126714, guid: 0a6fbc6a80439c44e8fa5c60397ade7e, type: 3}
-      propertyPath: m_LocalEulerAnglesHint.x
-      value: 0
-      objectReference: {fileID: 0}
-    - target: {fileID: 3455300935189126714, guid: 0a6fbc6a80439c44e8fa5c60397ade7e, type: 3}
-      propertyPath: m_LocalEulerAnglesHint.y
-      value: 0
-      objectReference: {fileID: 0}
-    - target: {fileID: 3455300935189126714, guid: 0a6fbc6a80439c44e8fa5c60397ade7e, type: 3}
-      propertyPath: m_LocalEulerAnglesHint.z
-      value: 0
-      objectReference: {fileID: 0}
-    - target: {fileID: 4079424974632926139, guid: 0a6fbc6a80439c44e8fa5c60397ade7e, type: 3}
-      propertyPath: m_Name
-      value: Dojo (6)
-      objectReference: {fileID: 0}
-    - target: {fileID: 4079424974632926139, guid: 0a6fbc6a80439c44e8fa5c60397ade7e, type: 3}
-      propertyPath: m_IsActive
-      value: 0
-      objectReference: {fileID: 0}
-    m_RemovedComponents: []
-    m_RemovedGameObjects: []
-    m_AddedGameObjects: []
-    m_AddedComponents: []
-  m_SourcePrefab: {fileID: 100100000, guid: 0a6fbc6a80439c44e8fa5c60397ade7e, type: 3}
---- !u!1001 &1296996283
-PrefabInstance:
-  m_ObjectHideFlags: 0
-  serializedVersion: 2
-  m_Modification:
-    serializedVersion: 3
-    m_TransformParent: {fileID: 0}
-    m_Modifications:
-    - target: {fileID: 3455300935189126714, guid: 0a6fbc6a80439c44e8fa5c60397ade7e, type: 3}
-      propertyPath: m_LocalPosition.x
-      value: 60
-      objectReference: {fileID: 0}
-    - target: {fileID: 3455300935189126714, guid: 0a6fbc6a80439c44e8fa5c60397ade7e, type: 3}
-      propertyPath: m_LocalPosition.y
-      value: 30
-      objectReference: {fileID: 0}
-    - target: {fileID: 3455300935189126714, guid: 0a6fbc6a80439c44e8fa5c60397ade7e, type: 3}
-      propertyPath: m_LocalPosition.z
-      value: 30
-      objectReference: {fileID: 0}
-    - target: {fileID: 3455300935189126714, guid: 0a6fbc6a80439c44e8fa5c60397ade7e, type: 3}
-      propertyPath: m_LocalRotation.w
-      value: 1
-      objectReference: {fileID: 0}
-    - target: {fileID: 3455300935189126714, guid: 0a6fbc6a80439c44e8fa5c60397ade7e, type: 3}
-      propertyPath: m_LocalRotation.x
-      value: 0
-      objectReference: {fileID: 0}
-    - target: {fileID: 3455300935189126714, guid: 0a6fbc6a80439c44e8fa5c60397ade7e, type: 3}
-      propertyPath: m_LocalRotation.y
-      value: 0
-      objectReference: {fileID: 0}
-    - target: {fileID: 3455300935189126714, guid: 0a6fbc6a80439c44e8fa5c60397ade7e, type: 3}
-      propertyPath: m_LocalRotation.z
-      value: 0
-      objectReference: {fileID: 0}
-    - target: {fileID: 3455300935189126714, guid: 0a6fbc6a80439c44e8fa5c60397ade7e, type: 3}
-      propertyPath: m_LocalEulerAnglesHint.x
-      value: 0
-      objectReference: {fileID: 0}
-    - target: {fileID: 3455300935189126714, guid: 0a6fbc6a80439c44e8fa5c60397ade7e, type: 3}
-      propertyPath: m_LocalEulerAnglesHint.y
-      value: 0
-      objectReference: {fileID: 0}
-    - target: {fileID: 3455300935189126714, guid: 0a6fbc6a80439c44e8fa5c60397ade7e, type: 3}
-      propertyPath: m_LocalEulerAnglesHint.z
-      value: 0
-      objectReference: {fileID: 0}
-    - target: {fileID: 4079424974632926139, guid: 0a6fbc6a80439c44e8fa5c60397ade7e, type: 3}
-      propertyPath: m_Name
-      value: Dojo (17)
-      objectReference: {fileID: 0}
-    - target: {fileID: 4079424974632926139, guid: 0a6fbc6a80439c44e8fa5c60397ade7e, type: 3}
-      propertyPath: m_IsActive
-      value: 0
-      objectReference: {fileID: 0}
-    m_RemovedComponents: []
-    m_RemovedGameObjects: []
-    m_AddedGameObjects: []
-    m_AddedComponents: []
-  m_SourcePrefab: {fileID: 100100000, guid: 0a6fbc6a80439c44e8fa5c60397ade7e, type: 3}
---- !u!1001 &1488235866
-PrefabInstance:
-  m_ObjectHideFlags: 0
-  serializedVersion: 2
-  m_Modification:
-    serializedVersion: 3
-    m_TransformParent: {fileID: 0}
-    m_Modifications:
-    - target: {fileID: 3455300935189126714, guid: 0a6fbc6a80439c44e8fa5c60397ade7e, type: 3}
-      propertyPath: m_LocalPosition.x
-      value: 60
-      objectReference: {fileID: 0}
-    - target: {fileID: 3455300935189126714, guid: 0a6fbc6a80439c44e8fa5c60397ade7e, type: 3}
-      propertyPath: m_LocalPosition.y
-      value: 0
-      objectReference: {fileID: 0}
-    - target: {fileID: 3455300935189126714, guid: 0a6fbc6a80439c44e8fa5c60397ade7e, type: 3}
-      propertyPath: m_LocalPosition.z
-      value: 60
-      objectReference: {fileID: 0}
-    - target: {fileID: 3455300935189126714, guid: 0a6fbc6a80439c44e8fa5c60397ade7e, type: 3}
-      propertyPath: m_LocalRotation.w
-      value: 1
-      objectReference: {fileID: 0}
-    - target: {fileID: 3455300935189126714, guid: 0a6fbc6a80439c44e8fa5c60397ade7e, type: 3}
-      propertyPath: m_LocalRotation.x
-      value: 0
-      objectReference: {fileID: 0}
-    - target: {fileID: 3455300935189126714, guid: 0a6fbc6a80439c44e8fa5c60397ade7e, type: 3}
-      propertyPath: m_LocalRotation.y
-      value: 0
-      objectReference: {fileID: 0}
-    - target: {fileID: 3455300935189126714, guid: 0a6fbc6a80439c44e8fa5c60397ade7e, type: 3}
-      propertyPath: m_LocalRotation.z
-      value: 0
-      objectReference: {fileID: 0}
-    - target: {fileID: 3455300935189126714, guid: 0a6fbc6a80439c44e8fa5c60397ade7e, type: 3}
-      propertyPath: m_LocalEulerAnglesHint.x
-      value: 0
-      objectReference: {fileID: 0}
-    - target: {fileID: 3455300935189126714, guid: 0a6fbc6a80439c44e8fa5c60397ade7e, type: 3}
-      propertyPath: m_LocalEulerAnglesHint.y
-      value: 0
-      objectReference: {fileID: 0}
-    - target: {fileID: 3455300935189126714, guid: 0a6fbc6a80439c44e8fa5c60397ade7e, type: 3}
-      propertyPath: m_LocalEulerAnglesHint.z
-      value: 0
-      objectReference: {fileID: 0}
-    - target: {fileID: 4079424974632926139, guid: 0a6fbc6a80439c44e8fa5c60397ade7e, type: 3}
-      propertyPath: m_Name
-      value: Dojo (8)
-      objectReference: {fileID: 0}
-    - target: {fileID: 4079424974632926139, guid: 0a6fbc6a80439c44e8fa5c60397ade7e, type: 3}
-      propertyPath: m_IsActive
-      value: 0
-      objectReference: {fileID: 0}
-    m_RemovedComponents: []
-    m_RemovedGameObjects: []
-    m_AddedGameObjects: []
-    m_AddedComponents: []
-  m_SourcePrefab: {fileID: 100100000, guid: 0a6fbc6a80439c44e8fa5c60397ade7e, type: 3}
---- !u!1001 &1620535148
-PrefabInstance:
-  m_ObjectHideFlags: 0
-  serializedVersion: 2
-  m_Modification:
-    serializedVersion: 3
-    m_TransformParent: {fileID: 0}
-    m_Modifications:
-    - target: {fileID: 3455300935189126714, guid: 0a6fbc6a80439c44e8fa5c60397ade7e, type: 3}
-      propertyPath: m_LocalPosition.x
-      value: 0
-      objectReference: {fileID: 0}
-    - target: {fileID: 3455300935189126714, guid: 0a6fbc6a80439c44e8fa5c60397ade7e, type: 3}
-      propertyPath: m_LocalPosition.y
-      value: 60
-      objectReference: {fileID: 0}
-    - target: {fileID: 3455300935189126714, guid: 0a6fbc6a80439c44e8fa5c60397ade7e, type: 3}
-      propertyPath: m_LocalPosition.z
-      value: 0
-      objectReference: {fileID: 0}
-    - target: {fileID: 3455300935189126714, guid: 0a6fbc6a80439c44e8fa5c60397ade7e, type: 3}
-      propertyPath: m_LocalRotation.w
-      value: 1
-      objectReference: {fileID: 0}
-    - target: {fileID: 3455300935189126714, guid: 0a6fbc6a80439c44e8fa5c60397ade7e, type: 3}
-      propertyPath: m_LocalRotation.x
-      value: 0
-      objectReference: {fileID: 0}
-    - target: {fileID: 3455300935189126714, guid: 0a6fbc6a80439c44e8fa5c60397ade7e, type: 3}
-      propertyPath: m_LocalRotation.y
-      value: 0
-      objectReference: {fileID: 0}
-    - target: {fileID: 3455300935189126714, guid: 0a6fbc6a80439c44e8fa5c60397ade7e, type: 3}
-      propertyPath: m_LocalRotation.z
-      value: 0
-      objectReference: {fileID: 0}
-    - target: {fileID: 3455300935189126714, guid: 0a6fbc6a80439c44e8fa5c60397ade7e, type: 3}
-      propertyPath: m_LocalEulerAnglesHint.x
-      value: 0
-      objectReference: {fileID: 0}
-    - target: {fileID: 3455300935189126714, guid: 0a6fbc6a80439c44e8fa5c60397ade7e, type: 3}
-      propertyPath: m_LocalEulerAnglesHint.y
-      value: 0
-      objectReference: {fileID: 0}
-    - target: {fileID: 3455300935189126714, guid: 0a6fbc6a80439c44e8fa5c60397ade7e, type: 3}
-      propertyPath: m_LocalEulerAnglesHint.z
-      value: 0
-      objectReference: {fileID: 0}
-    - target: {fileID: 4079424974632926139, guid: 0a6fbc6a80439c44e8fa5c60397ade7e, type: 3}
-      propertyPath: m_Name
-      value: Dojo (18)
-      objectReference: {fileID: 0}
-    - target: {fileID: 4079424974632926139, guid: 0a6fbc6a80439c44e8fa5c60397ade7e, type: 3}
-      propertyPath: m_IsActive
-      value: 0
-      objectReference: {fileID: 0}
-    m_RemovedComponents: []
-    m_RemovedGameObjects: []
-    m_AddedGameObjects: []
-    m_AddedComponents: []
-  m_SourcePrefab: {fileID: 100100000, guid: 0a6fbc6a80439c44e8fa5c60397ade7e, type: 3}
---- !u!1001 &1630974440
-PrefabInstance:
-  m_ObjectHideFlags: 0
-  serializedVersion: 2
-  m_Modification:
-    serializedVersion: 3
-    m_TransformParent: {fileID: 0}
-    m_Modifications:
-    - target: {fileID: 3455300935189126714, guid: 0a6fbc6a80439c44e8fa5c60397ade7e, type: 3}
-      propertyPath: m_LocalPosition.x
-      value: 60
-      objectReference: {fileID: 0}
-    - target: {fileID: 3455300935189126714, guid: 0a6fbc6a80439c44e8fa5c60397ade7e, type: 3}
-      propertyPath: m_LocalPosition.y
-      value: 60
-      objectReference: {fileID: 0}
-    - target: {fileID: 3455300935189126714, guid: 0a6fbc6a80439c44e8fa5c60397ade7e, type: 3}
-      propertyPath: m_LocalPosition.z
-      value: 60
-      objectReference: {fileID: 0}
-    - target: {fileID: 3455300935189126714, guid: 0a6fbc6a80439c44e8fa5c60397ade7e, type: 3}
-      propertyPath: m_LocalRotation.w
-      value: 1
-      objectReference: {fileID: 0}
-    - target: {fileID: 3455300935189126714, guid: 0a6fbc6a80439c44e8fa5c60397ade7e, type: 3}
-      propertyPath: m_LocalRotation.x
-      value: 0
-      objectReference: {fileID: 0}
-    - target: {fileID: 3455300935189126714, guid: 0a6fbc6a80439c44e8fa5c60397ade7e, type: 3}
-      propertyPath: m_LocalRotation.y
-      value: 0
-      objectReference: {fileID: 0}
-    - target: {fileID: 3455300935189126714, guid: 0a6fbc6a80439c44e8fa5c60397ade7e, type: 3}
-      propertyPath: m_LocalRotation.z
-      value: 0
-      objectReference: {fileID: 0}
-    - target: {fileID: 3455300935189126714, guid: 0a6fbc6a80439c44e8fa5c60397ade7e, type: 3}
-      propertyPath: m_LocalEulerAnglesHint.x
-      value: 0
-      objectReference: {fileID: 0}
-    - target: {fileID: 3455300935189126714, guid: 0a6fbc6a80439c44e8fa5c60397ade7e, type: 3}
-      propertyPath: m_LocalEulerAnglesHint.y
-      value: 0
-      objectReference: {fileID: 0}
-    - target: {fileID: 3455300935189126714, guid: 0a6fbc6a80439c44e8fa5c60397ade7e, type: 3}
-      propertyPath: m_LocalEulerAnglesHint.z
-      value: 0
-      objectReference: {fileID: 0}
-    - target: {fileID: 4079424974632926139, guid: 0a6fbc6a80439c44e8fa5c60397ade7e, type: 3}
-      propertyPath: m_Name
-      value: Dojo (25)
-      objectReference: {fileID: 0}
-    - target: {fileID: 4079424974632926139, guid: 0a6fbc6a80439c44e8fa5c60397ade7e, type: 3}
-      propertyPath: m_IsActive
-      value: 0
-      objectReference: {fileID: 0}
-    m_RemovedComponents: []
-    m_RemovedGameObjects: []
-    m_AddedGameObjects: []
-    m_AddedComponents: []
-  m_SourcePrefab: {fileID: 100100000, guid: 0a6fbc6a80439c44e8fa5c60397ade7e, type: 3}
---- !u!1001 &1644039569
-PrefabInstance:
-  m_ObjectHideFlags: 0
-  serializedVersion: 2
-  m_Modification:
-    serializedVersion: 3
-    m_TransformParent: {fileID: 0}
-    m_Modifications:
-    - target: {fileID: 3455300935189126714, guid: 0a6fbc6a80439c44e8fa5c60397ade7e, type: 3}
-      propertyPath: m_LocalPosition.x
-      value: 60
-      objectReference: {fileID: 0}
-    - target: {fileID: 3455300935189126714, guid: 0a6fbc6a80439c44e8fa5c60397ade7e, type: 3}
-      propertyPath: m_LocalPosition.y
-      value: 30
-      objectReference: {fileID: 0}
-    - target: {fileID: 3455300935189126714, guid: 0a6fbc6a80439c44e8fa5c60397ade7e, type: 3}
-      propertyPath: m_LocalPosition.z
-      value: 60
-      objectReference: {fileID: 0}
-    - target: {fileID: 3455300935189126714, guid: 0a6fbc6a80439c44e8fa5c60397ade7e, type: 3}
-      propertyPath: m_LocalRotation.w
-      value: 1
-      objectReference: {fileID: 0}
-    - target: {fileID: 3455300935189126714, guid: 0a6fbc6a80439c44e8fa5c60397ade7e, type: 3}
-      propertyPath: m_LocalRotation.x
-      value: 0
-      objectReference: {fileID: 0}
-    - target: {fileID: 3455300935189126714, guid: 0a6fbc6a80439c44e8fa5c60397ade7e, type: 3}
-      propertyPath: m_LocalRotation.y
-      value: 0
-      objectReference: {fileID: 0}
-    - target: {fileID: 3455300935189126714, guid: 0a6fbc6a80439c44e8fa5c60397ade7e, type: 3}
-      propertyPath: m_LocalRotation.z
-      value: 0
-      objectReference: {fileID: 0}
-    - target: {fileID: 3455300935189126714, guid: 0a6fbc6a80439c44e8fa5c60397ade7e, type: 3}
-      propertyPath: m_LocalEulerAnglesHint.x
-      value: 0
-      objectReference: {fileID: 0}
-    - target: {fileID: 3455300935189126714, guid: 0a6fbc6a80439c44e8fa5c60397ade7e, type: 3}
-      propertyPath: m_LocalEulerAnglesHint.y
-      value: 0
-      objectReference: {fileID: 0}
-    - target: {fileID: 3455300935189126714, guid: 0a6fbc6a80439c44e8fa5c60397ade7e, type: 3}
-      propertyPath: m_LocalEulerAnglesHint.z
-      value: 0
-      objectReference: {fileID: 0}
-    - target: {fileID: 4079424974632926139, guid: 0a6fbc6a80439c44e8fa5c60397ade7e, type: 3}
-      propertyPath: m_Name
-      value: Dojo (16)
-      objectReference: {fileID: 0}
-    - target: {fileID: 4079424974632926139, guid: 0a6fbc6a80439c44e8fa5c60397ade7e, type: 3}
-      propertyPath: m_IsActive
-      value: 0
-      objectReference: {fileID: 0}
-    m_RemovedComponents: []
-    m_RemovedGameObjects: []
-    m_AddedGameObjects: []
-    m_AddedComponents: []
-  m_SourcePrefab: {fileID: 100100000, guid: 0a6fbc6a80439c44e8fa5c60397ade7e, type: 3}
---- !u!1001 &1716553809
-PrefabInstance:
-  m_ObjectHideFlags: 0
-  serializedVersion: 2
-  m_Modification:
-    serializedVersion: 3
-    m_TransformParent: {fileID: 0}
-    m_Modifications:
-    - target: {fileID: 3455300935189126714, guid: 0a6fbc6a80439c44e8fa5c60397ade7e, type: 3}
-      propertyPath: m_LocalPosition.x
-      value: 0
-      objectReference: {fileID: 0}
-    - target: {fileID: 3455300935189126714, guid: 0a6fbc6a80439c44e8fa5c60397ade7e, type: 3}
-      propertyPath: m_LocalPosition.y
-      value: 60
-      objectReference: {fileID: 0}
-    - target: {fileID: 3455300935189126714, guid: 0a6fbc6a80439c44e8fa5c60397ade7e, type: 3}
-      propertyPath: m_LocalPosition.z
-      value: 30
-      objectReference: {fileID: 0}
-    - target: {fileID: 3455300935189126714, guid: 0a6fbc6a80439c44e8fa5c60397ade7e, type: 3}
-      propertyPath: m_LocalRotation.w
-      value: 1
-      objectReference: {fileID: 0}
-    - target: {fileID: 3455300935189126714, guid: 0a6fbc6a80439c44e8fa5c60397ade7e, type: 3}
-      propertyPath: m_LocalRotation.x
-      value: 0
-      objectReference: {fileID: 0}
-    - target: {fileID: 3455300935189126714, guid: 0a6fbc6a80439c44e8fa5c60397ade7e, type: 3}
-      propertyPath: m_LocalRotation.y
-      value: 0
-      objectReference: {fileID: 0}
-    - target: {fileID: 3455300935189126714, guid: 0a6fbc6a80439c44e8fa5c60397ade7e, type: 3}
-      propertyPath: m_LocalRotation.z
-      value: 0
-      objectReference: {fileID: 0}
-    - target: {fileID: 3455300935189126714, guid: 0a6fbc6a80439c44e8fa5c60397ade7e, type: 3}
-      propertyPath: m_LocalEulerAnglesHint.x
-      value: 0
-      objectReference: {fileID: 0}
-    - target: {fileID: 3455300935189126714, guid: 0a6fbc6a80439c44e8fa5c60397ade7e, type: 3}
-      propertyPath: m_LocalEulerAnglesHint.y
-      value: 0
-      objectReference: {fileID: 0}
-    - target: {fileID: 3455300935189126714, guid: 0a6fbc6a80439c44e8fa5c60397ade7e, type: 3}
-      propertyPath: m_LocalEulerAnglesHint.z
-      value: 0
-      objectReference: {fileID: 0}
-    - target: {fileID: 4079424974632926139, guid: 0a6fbc6a80439c44e8fa5c60397ade7e, type: 3}
-      propertyPath: m_Name
-      value: Dojo (20)
-      objectReference: {fileID: 0}
-    - target: {fileID: 4079424974632926139, guid: 0a6fbc6a80439c44e8fa5c60397ade7e, type: 3}
-      propertyPath: m_IsActive
-      value: 0
-      objectReference: {fileID: 0}
-    m_RemovedComponents: []
-    m_RemovedGameObjects: []
-    m_AddedGameObjects: []
-    m_AddedComponents: []
-  m_SourcePrefab: {fileID: 100100000, guid: 0a6fbc6a80439c44e8fa5c60397ade7e, type: 3}
---- !u!1001 &1724756393
-PrefabInstance:
-  m_ObjectHideFlags: 0
-  serializedVersion: 2
-  m_Modification:
-    serializedVersion: 3
-    m_TransformParent: {fileID: 0}
-    m_Modifications:
-    - target: {fileID: 3455300935189126714, guid: 0a6fbc6a80439c44e8fa5c60397ade7e, type: 3}
-      propertyPath: m_LocalPosition.x
-      value: 30
-      objectReference: {fileID: 0}
-    - target: {fileID: 3455300935189126714, guid: 0a6fbc6a80439c44e8fa5c60397ade7e, type: 3}
-      propertyPath: m_LocalPosition.y
-      value: 0
-      objectReference: {fileID: 0}
-    - target: {fileID: 3455300935189126714, guid: 0a6fbc6a80439c44e8fa5c60397ade7e, type: 3}
-      propertyPath: m_LocalPosition.z
-      value: 60
-      objectReference: {fileID: 0}
-    - target: {fileID: 3455300935189126714, guid: 0a6fbc6a80439c44e8fa5c60397ade7e, type: 3}
-      propertyPath: m_LocalRotation.w
-      value: 1
-      objectReference: {fileID: 0}
-    - target: {fileID: 3455300935189126714, guid: 0a6fbc6a80439c44e8fa5c60397ade7e, type: 3}
-      propertyPath: m_LocalRotation.x
-      value: 0
-      objectReference: {fileID: 0}
-    - target: {fileID: 3455300935189126714, guid: 0a6fbc6a80439c44e8fa5c60397ade7e, type: 3}
-      propertyPath: m_LocalRotation.y
-      value: 0
-      objectReference: {fileID: 0}
-    - target: {fileID: 3455300935189126714, guid: 0a6fbc6a80439c44e8fa5c60397ade7e, type: 3}
-      propertyPath: m_LocalRotation.z
-      value: 0
-      objectReference: {fileID: 0}
-    - target: {fileID: 3455300935189126714, guid: 0a6fbc6a80439c44e8fa5c60397ade7e, type: 3}
-      propertyPath: m_LocalEulerAnglesHint.x
-      value: 0
-      objectReference: {fileID: 0}
-    - target: {fileID: 3455300935189126714, guid: 0a6fbc6a80439c44e8fa5c60397ade7e, type: 3}
-      propertyPath: m_LocalEulerAnglesHint.y
-      value: 0
-      objectReference: {fileID: 0}
-    - target: {fileID: 3455300935189126714, guid: 0a6fbc6a80439c44e8fa5c60397ade7e, type: 3}
-      propertyPath: m_LocalEulerAnglesHint.z
-      value: 0
-      objectReference: {fileID: 0}
-    - target: {fileID: 4079424974632926139, guid: 0a6fbc6a80439c44e8fa5c60397ade7e, type: 3}
-      propertyPath: m_Name
-      value: Dojo (7)
-      objectReference: {fileID: 0}
-    - target: {fileID: 4079424974632926139, guid: 0a6fbc6a80439c44e8fa5c60397ade7e, type: 3}
-      propertyPath: m_IsActive
-      value: 0
-      objectReference: {fileID: 0}
-    m_RemovedComponents: []
-    m_RemovedGameObjects: []
-    m_AddedGameObjects: []
-    m_AddedComponents: []
-  m_SourcePrefab: {fileID: 100100000, guid: 0a6fbc6a80439c44e8fa5c60397ade7e, type: 3}
---- !u!1001 &1743324713
-PrefabInstance:
-  m_ObjectHideFlags: 0
-  serializedVersion: 2
-  m_Modification:
-    serializedVersion: 3
-    m_TransformParent: {fileID: 0}
-    m_Modifications:
-    - target: {fileID: 3455300935189126714, guid: 0a6fbc6a80439c44e8fa5c60397ade7e, type: 3}
-      propertyPath: m_LocalPosition.x
-      value: 30
-      objectReference: {fileID: 0}
-    - target: {fileID: 3455300935189126714, guid: 0a6fbc6a80439c44e8fa5c60397ade7e, type: 3}
-      propertyPath: m_LocalPosition.y
-      value: 30
-      objectReference: {fileID: 0}
-    - target: {fileID: 3455300935189126714, guid: 0a6fbc6a80439c44e8fa5c60397ade7e, type: 3}
-      propertyPath: m_LocalPosition.z
-      value: 30
-      objectReference: {fileID: 0}
-    - target: {fileID: 3455300935189126714, guid: 0a6fbc6a80439c44e8fa5c60397ade7e, type: 3}
-      propertyPath: m_LocalRotation.w
-      value: 1
-      objectReference: {fileID: 0}
-    - target: {fileID: 3455300935189126714, guid: 0a6fbc6a80439c44e8fa5c60397ade7e, type: 3}
-      propertyPath: m_LocalRotation.x
-      value: 0
-      objectReference: {fileID: 0}
-    - target: {fileID: 3455300935189126714, guid: 0a6fbc6a80439c44e8fa5c60397ade7e, type: 3}
-      propertyPath: m_LocalRotation.y
-      value: 0
-      objectReference: {fileID: 0}
-    - target: {fileID: 3455300935189126714, guid: 0a6fbc6a80439c44e8fa5c60397ade7e, type: 3}
-      propertyPath: m_LocalRotation.z
-      value: 0
-      objectReference: {fileID: 0}
-    - target: {fileID: 3455300935189126714, guid: 0a6fbc6a80439c44e8fa5c60397ade7e, type: 3}
-      propertyPath: m_LocalEulerAnglesHint.x
-      value: 0
-      objectReference: {fileID: 0}
-    - target: {fileID: 3455300935189126714, guid: 0a6fbc6a80439c44e8fa5c60397ade7e, type: 3}
-      propertyPath: m_LocalEulerAnglesHint.y
-      value: 0
-      objectReference: {fileID: 0}
-    - target: {fileID: 3455300935189126714, guid: 0a6fbc6a80439c44e8fa5c60397ade7e, type: 3}
-      propertyPath: m_LocalEulerAnglesHint.z
-      value: 0
-      objectReference: {fileID: 0}
-    - target: {fileID: 4079424974632926139, guid: 0a6fbc6a80439c44e8fa5c60397ade7e, type: 3}
-      propertyPath: m_Name
-      value: Dojo (14)
-      objectReference: {fileID: 0}
-    - target: {fileID: 4079424974632926139, guid: 0a6fbc6a80439c44e8fa5c60397ade7e, type: 3}
-      propertyPath: m_IsActive
-      value: 0
-      objectReference: {fileID: 0}
-    m_RemovedComponents: []
-    m_RemovedGameObjects: []
-    m_AddedGameObjects: []
-    m_AddedComponents: []
-  m_SourcePrefab: {fileID: 100100000, guid: 0a6fbc6a80439c44e8fa5c60397ade7e, type: 3}
---- !u!1001 &1779810074
-PrefabInstance:
-  m_ObjectHideFlags: 0
-  serializedVersion: 2
-  m_Modification:
-    serializedVersion: 3
-    m_TransformParent: {fileID: 0}
-    m_Modifications:
-    - target: {fileID: 3455300935189126714, guid: 0a6fbc6a80439c44e8fa5c60397ade7e, type: 3}
-      propertyPath: m_LocalPosition.x
-      value: 60
+      value: 62.8
       objectReference: {fileID: 0}
     - target: {fileID: 3455300935189126714, guid: 0a6fbc6a80439c44e8fa5c60397ade7e, type: 3}
       propertyPath: m_LocalPosition.y
@@ -1588,16 +949,20 @@ PrefabInstance:
       propertyPath: m_Name
       value: Dojo (2)
       objectReference: {fileID: 0}
-    - target: {fileID: 4079424974632926139, guid: 0a6fbc6a80439c44e8fa5c60397ade7e, type: 3}
-      propertyPath: m_IsActive
-      value: 0
+    - target: {fileID: 4737009618145295304, guid: 0a6fbc6a80439c44e8fa5c60397ade7e, type: 3}
+      propertyPath: m_TagString
+      value: TeamRed
+      objectReference: {fileID: 0}
+    - target: {fileID: 8479009532016358613, guid: 0a6fbc6a80439c44e8fa5c60397ade7e, type: 3}
+      propertyPath: m_TagString
+      value: TeamBlue
       objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
     m_AddedGameObjects: []
     m_AddedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 0a6fbc6a80439c44e8fa5c60397ade7e, type: 3}
---- !u!1001 &1838890162
+--- !u!1001 &1188000068
 PrefabInstance:
   m_ObjectHideFlags: 0
   serializedVersion: 2
@@ -1607,7 +972,397 @@ PrefabInstance:
     m_Modifications:
     - target: {fileID: 3455300935189126714, guid: 0a6fbc6a80439c44e8fa5c60397ade7e, type: 3}
       propertyPath: m_LocalPosition.x
-      value: 30
+      value: 30.5
+      objectReference: {fileID: 0}
+    - target: {fileID: 3455300935189126714, guid: 0a6fbc6a80439c44e8fa5c60397ade7e, type: 3}
+      propertyPath: m_LocalPosition.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 3455300935189126714, guid: 0a6fbc6a80439c44e8fa5c60397ade7e, type: 3}
+      propertyPath: m_LocalPosition.z
+      value: -99.3
+      objectReference: {fileID: 0}
+    - target: {fileID: 3455300935189126714, guid: 0a6fbc6a80439c44e8fa5c60397ade7e, type: 3}
+      propertyPath: m_LocalRotation.w
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 3455300935189126714, guid: 0a6fbc6a80439c44e8fa5c60397ade7e, type: 3}
+      propertyPath: m_LocalRotation.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 3455300935189126714, guid: 0a6fbc6a80439c44e8fa5c60397ade7e, type: 3}
+      propertyPath: m_LocalRotation.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 3455300935189126714, guid: 0a6fbc6a80439c44e8fa5c60397ade7e, type: 3}
+      propertyPath: m_LocalRotation.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 3455300935189126714, guid: 0a6fbc6a80439c44e8fa5c60397ade7e, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 3455300935189126714, guid: 0a6fbc6a80439c44e8fa5c60397ade7e, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 3455300935189126714, guid: 0a6fbc6a80439c44e8fa5c60397ade7e, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 4079424974632926139, guid: 0a6fbc6a80439c44e8fa5c60397ade7e, type: 3}
+      propertyPath: m_Name
+      value: Dojo (25)
+      objectReference: {fileID: 0}
+    - target: {fileID: 4737009618145295304, guid: 0a6fbc6a80439c44e8fa5c60397ade7e, type: 3}
+      propertyPath: m_TagString
+      value: TeamRed
+      objectReference: {fileID: 0}
+    - target: {fileID: 8479009532016358613, guid: 0a6fbc6a80439c44e8fa5c60397ade7e, type: 3}
+      propertyPath: m_TagString
+      value: TeamBlue
+      objectReference: {fileID: 0}
+    m_RemovedComponents: []
+    m_RemovedGameObjects: []
+    m_AddedGameObjects: []
+    m_AddedComponents: []
+  m_SourcePrefab: {fileID: 100100000, guid: 0a6fbc6a80439c44e8fa5c60397ade7e, type: 3}
+--- !u!1001 &1217423431
+PrefabInstance:
+  m_ObjectHideFlags: 0
+  serializedVersion: 2
+  m_Modification:
+    serializedVersion: 3
+    m_TransformParent: {fileID: 0}
+    m_Modifications:
+    - target: {fileID: 3455300935189126714, guid: 0a6fbc6a80439c44e8fa5c60397ade7e, type: 3}
+      propertyPath: m_LocalPosition.x
+      value: 122.8
+      objectReference: {fileID: 0}
+    - target: {fileID: 3455300935189126714, guid: 0a6fbc6a80439c44e8fa5c60397ade7e, type: 3}
+      propertyPath: m_LocalPosition.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 3455300935189126714, guid: 0a6fbc6a80439c44e8fa5c60397ade7e, type: 3}
+      propertyPath: m_LocalPosition.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 3455300935189126714, guid: 0a6fbc6a80439c44e8fa5c60397ade7e, type: 3}
+      propertyPath: m_LocalRotation.w
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 3455300935189126714, guid: 0a6fbc6a80439c44e8fa5c60397ade7e, type: 3}
+      propertyPath: m_LocalRotation.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 3455300935189126714, guid: 0a6fbc6a80439c44e8fa5c60397ade7e, type: 3}
+      propertyPath: m_LocalRotation.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 3455300935189126714, guid: 0a6fbc6a80439c44e8fa5c60397ade7e, type: 3}
+      propertyPath: m_LocalRotation.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 3455300935189126714, guid: 0a6fbc6a80439c44e8fa5c60397ade7e, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 3455300935189126714, guid: 0a6fbc6a80439c44e8fa5c60397ade7e, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 3455300935189126714, guid: 0a6fbc6a80439c44e8fa5c60397ade7e, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 4079424974632926139, guid: 0a6fbc6a80439c44e8fa5c60397ade7e, type: 3}
+      propertyPath: m_Name
+      value: Dojo (4)
+      objectReference: {fileID: 0}
+    - target: {fileID: 4737009618145295304, guid: 0a6fbc6a80439c44e8fa5c60397ade7e, type: 3}
+      propertyPath: m_TagString
+      value: TeamRed
+      objectReference: {fileID: 0}
+    - target: {fileID: 8479009532016358613, guid: 0a6fbc6a80439c44e8fa5c60397ade7e, type: 3}
+      propertyPath: m_TagString
+      value: TeamBlue
+      objectReference: {fileID: 0}
+    m_RemovedComponents: []
+    m_RemovedGameObjects: []
+    m_AddedGameObjects: []
+    m_AddedComponents: []
+  m_SourcePrefab: {fileID: 100100000, guid: 0a6fbc6a80439c44e8fa5c60397ade7e, type: 3}
+--- !u!1001 &1258219725
+PrefabInstance:
+  m_ObjectHideFlags: 0
+  serializedVersion: 2
+  m_Modification:
+    serializedVersion: 3
+    m_TransformParent: {fileID: 0}
+    m_Modifications:
+    - target: {fileID: 3455300935189126714, guid: 0a6fbc6a80439c44e8fa5c60397ade7e, type: 3}
+      propertyPath: m_LocalPosition.x
+      value: 122.8
+      objectReference: {fileID: 0}
+    - target: {fileID: 3455300935189126714, guid: 0a6fbc6a80439c44e8fa5c60397ade7e, type: 3}
+      propertyPath: m_LocalPosition.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 3455300935189126714, guid: 0a6fbc6a80439c44e8fa5c60397ade7e, type: 3}
+      propertyPath: m_LocalPosition.z
+      value: -64.2
+      objectReference: {fileID: 0}
+    - target: {fileID: 3455300935189126714, guid: 0a6fbc6a80439c44e8fa5c60397ade7e, type: 3}
+      propertyPath: m_LocalRotation.w
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 3455300935189126714, guid: 0a6fbc6a80439c44e8fa5c60397ade7e, type: 3}
+      propertyPath: m_LocalRotation.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 3455300935189126714, guid: 0a6fbc6a80439c44e8fa5c60397ade7e, type: 3}
+      propertyPath: m_LocalRotation.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 3455300935189126714, guid: 0a6fbc6a80439c44e8fa5c60397ade7e, type: 3}
+      propertyPath: m_LocalRotation.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 3455300935189126714, guid: 0a6fbc6a80439c44e8fa5c60397ade7e, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 3455300935189126714, guid: 0a6fbc6a80439c44e8fa5c60397ade7e, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 3455300935189126714, guid: 0a6fbc6a80439c44e8fa5c60397ade7e, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 4079424974632926139, guid: 0a6fbc6a80439c44e8fa5c60397ade7e, type: 3}
+      propertyPath: m_Name
+      value: Dojo (18)
+      objectReference: {fileID: 0}
+    - target: {fileID: 4737009618145295304, guid: 0a6fbc6a80439c44e8fa5c60397ade7e, type: 3}
+      propertyPath: m_TagString
+      value: TeamRed
+      objectReference: {fileID: 0}
+    - target: {fileID: 8479009532016358613, guid: 0a6fbc6a80439c44e8fa5c60397ade7e, type: 3}
+      propertyPath: m_TagString
+      value: TeamBlue
+      objectReference: {fileID: 0}
+    m_RemovedComponents: []
+    m_RemovedGameObjects: []
+    m_AddedGameObjects: []
+    m_AddedComponents: []
+  m_SourcePrefab: {fileID: 100100000, guid: 0a6fbc6a80439c44e8fa5c60397ade7e, type: 3}
+--- !u!1001 &1278861953
+PrefabInstance:
+  m_ObjectHideFlags: 0
+  serializedVersion: 2
+  m_Modification:
+    serializedVersion: 3
+    m_TransformParent: {fileID: 0}
+    m_Modifications:
+    - target: {fileID: 3455300935189126714, guid: 0a6fbc6a80439c44e8fa5c60397ade7e, type: 3}
+      propertyPath: m_LocalPosition.x
+      value: 91.5
+      objectReference: {fileID: 0}
+    - target: {fileID: 3455300935189126714, guid: 0a6fbc6a80439c44e8fa5c60397ade7e, type: 3}
+      propertyPath: m_LocalPosition.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 3455300935189126714, guid: 0a6fbc6a80439c44e8fa5c60397ade7e, type: 3}
+      propertyPath: m_LocalPosition.z
+      value: -99.3
+      objectReference: {fileID: 0}
+    - target: {fileID: 3455300935189126714, guid: 0a6fbc6a80439c44e8fa5c60397ade7e, type: 3}
+      propertyPath: m_LocalRotation.w
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 3455300935189126714, guid: 0a6fbc6a80439c44e8fa5c60397ade7e, type: 3}
+      propertyPath: m_LocalRotation.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 3455300935189126714, guid: 0a6fbc6a80439c44e8fa5c60397ade7e, type: 3}
+      propertyPath: m_LocalRotation.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 3455300935189126714, guid: 0a6fbc6a80439c44e8fa5c60397ade7e, type: 3}
+      propertyPath: m_LocalRotation.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 3455300935189126714, guid: 0a6fbc6a80439c44e8fa5c60397ade7e, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 3455300935189126714, guid: 0a6fbc6a80439c44e8fa5c60397ade7e, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 3455300935189126714, guid: 0a6fbc6a80439c44e8fa5c60397ade7e, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 4079424974632926139, guid: 0a6fbc6a80439c44e8fa5c60397ade7e, type: 3}
+      propertyPath: m_Name
+      value: Dojo (31)
+      objectReference: {fileID: 0}
+    - target: {fileID: 4737009618145295304, guid: 0a6fbc6a80439c44e8fa5c60397ade7e, type: 3}
+      propertyPath: m_TagString
+      value: TeamRed
+      objectReference: {fileID: 0}
+    - target: {fileID: 8479009532016358613, guid: 0a6fbc6a80439c44e8fa5c60397ade7e, type: 3}
+      propertyPath: m_TagString
+      value: TeamBlue
+      objectReference: {fileID: 0}
+    m_RemovedComponents: []
+    m_RemovedGameObjects: []
+    m_AddedGameObjects: []
+    m_AddedComponents: []
+  m_SourcePrefab: {fileID: 100100000, guid: 0a6fbc6a80439c44e8fa5c60397ade7e, type: 3}
+--- !u!1001 &1279364429
+PrefabInstance:
+  m_ObjectHideFlags: 0
+  serializedVersion: 2
+  m_Modification:
+    serializedVersion: 3
+    m_TransformParent: {fileID: 0}
+    m_Modifications:
+    - target: {fileID: 3455300935189126714, guid: 0a6fbc6a80439c44e8fa5c60397ade7e, type: 3}
+      propertyPath: m_LocalPosition.x
+      value: 185.6
+      objectReference: {fileID: 0}
+    - target: {fileID: 3455300935189126714, guid: 0a6fbc6a80439c44e8fa5c60397ade7e, type: 3}
+      propertyPath: m_LocalPosition.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 3455300935189126714, guid: 0a6fbc6a80439c44e8fa5c60397ade7e, type: 3}
+      propertyPath: m_LocalPosition.z
+      value: -32.2
+      objectReference: {fileID: 0}
+    - target: {fileID: 3455300935189126714, guid: 0a6fbc6a80439c44e8fa5c60397ade7e, type: 3}
+      propertyPath: m_LocalRotation.w
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 3455300935189126714, guid: 0a6fbc6a80439c44e8fa5c60397ade7e, type: 3}
+      propertyPath: m_LocalRotation.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 3455300935189126714, guid: 0a6fbc6a80439c44e8fa5c60397ade7e, type: 3}
+      propertyPath: m_LocalRotation.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 3455300935189126714, guid: 0a6fbc6a80439c44e8fa5c60397ade7e, type: 3}
+      propertyPath: m_LocalRotation.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 3455300935189126714, guid: 0a6fbc6a80439c44e8fa5c60397ade7e, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 3455300935189126714, guid: 0a6fbc6a80439c44e8fa5c60397ade7e, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 3455300935189126714, guid: 0a6fbc6a80439c44e8fa5c60397ade7e, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 4079424974632926139, guid: 0a6fbc6a80439c44e8fa5c60397ade7e, type: 3}
+      propertyPath: m_Name
+      value: Dojo (12)
+      objectReference: {fileID: 0}
+    - target: {fileID: 4737009618145295304, guid: 0a6fbc6a80439c44e8fa5c60397ade7e, type: 3}
+      propertyPath: m_TagString
+      value: TeamRed
+      objectReference: {fileID: 0}
+    - target: {fileID: 8479009532016358613, guid: 0a6fbc6a80439c44e8fa5c60397ade7e, type: 3}
+      propertyPath: m_TagString
+      value: TeamBlue
+      objectReference: {fileID: 0}
+    m_RemovedComponents: []
+    m_RemovedGameObjects: []
+    m_AddedGameObjects: []
+    m_AddedComponents: []
+  m_SourcePrefab: {fileID: 100100000, guid: 0a6fbc6a80439c44e8fa5c60397ade7e, type: 3}
+--- !u!1001 &1300167850
+PrefabInstance:
+  m_ObjectHideFlags: 0
+  serializedVersion: 2
+  m_Modification:
+    serializedVersion: 3
+    m_TransformParent: {fileID: 0}
+    m_Modifications:
+    - target: {fileID: 3455300935189126714, guid: 0a6fbc6a80439c44e8fa5c60397ade7e, type: 3}
+      propertyPath: m_LocalPosition.x
+      value: 153.3
+      objectReference: {fileID: 0}
+    - target: {fileID: 3455300935189126714, guid: 0a6fbc6a80439c44e8fa5c60397ade7e, type: 3}
+      propertyPath: m_LocalPosition.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 3455300935189126714, guid: 0a6fbc6a80439c44e8fa5c60397ade7e, type: 3}
+      propertyPath: m_LocalPosition.z
+      value: -64.2
+      objectReference: {fileID: 0}
+    - target: {fileID: 3455300935189126714, guid: 0a6fbc6a80439c44e8fa5c60397ade7e, type: 3}
+      propertyPath: m_LocalRotation.w
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 3455300935189126714, guid: 0a6fbc6a80439c44e8fa5c60397ade7e, type: 3}
+      propertyPath: m_LocalRotation.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 3455300935189126714, guid: 0a6fbc6a80439c44e8fa5c60397ade7e, type: 3}
+      propertyPath: m_LocalRotation.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 3455300935189126714, guid: 0a6fbc6a80439c44e8fa5c60397ade7e, type: 3}
+      propertyPath: m_LocalRotation.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 3455300935189126714, guid: 0a6fbc6a80439c44e8fa5c60397ade7e, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 3455300935189126714, guid: 0a6fbc6a80439c44e8fa5c60397ade7e, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 3455300935189126714, guid: 0a6fbc6a80439c44e8fa5c60397ade7e, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 4079424974632926139, guid: 0a6fbc6a80439c44e8fa5c60397ade7e, type: 3}
+      propertyPath: m_Name
+      value: Dojo (19)
+      objectReference: {fileID: 0}
+    - target: {fileID: 4737009618145295304, guid: 0a6fbc6a80439c44e8fa5c60397ade7e, type: 3}
+      propertyPath: m_TagString
+      value: TeamRed
+      objectReference: {fileID: 0}
+    - target: {fileID: 8479009532016358613, guid: 0a6fbc6a80439c44e8fa5c60397ade7e, type: 3}
+      propertyPath: m_TagString
+      value: TeamBlue
+      objectReference: {fileID: 0}
+    m_RemovedComponents: []
+    m_RemovedGameObjects: []
+    m_AddedGameObjects: []
+    m_AddedComponents: []
+  m_SourcePrefab: {fileID: 100100000, guid: 0a6fbc6a80439c44e8fa5c60397ade7e, type: 3}
+--- !u!1001 &1307543430
+PrefabInstance:
+  m_ObjectHideFlags: 0
+  serializedVersion: 2
+  m_Modification:
+    serializedVersion: 3
+    m_TransformParent: {fileID: 0}
+    m_Modifications:
+    - target: {fileID: 3455300935189126714, guid: 0a6fbc6a80439c44e8fa5c60397ade7e, type: 3}
+      propertyPath: m_LocalPosition.x
+      value: 30.5
       objectReference: {fileID: 0}
     - target: {fileID: 3455300935189126714, guid: 0a6fbc6a80439c44e8fa5c60397ade7e, type: 3}
       propertyPath: m_LocalPosition.y
@@ -1649,16 +1404,20 @@ PrefabInstance:
       propertyPath: m_Name
       value: Dojo (1)
       objectReference: {fileID: 0}
-    - target: {fileID: 4079424974632926139, guid: 0a6fbc6a80439c44e8fa5c60397ade7e, type: 3}
-      propertyPath: m_IsActive
-      value: 0
+    - target: {fileID: 4737009618145295304, guid: 0a6fbc6a80439c44e8fa5c60397ade7e, type: 3}
+      propertyPath: m_TagString
+      value: TeamRed
+      objectReference: {fileID: 0}
+    - target: {fileID: 8479009532016358613, guid: 0a6fbc6a80439c44e8fa5c60397ade7e, type: 3}
+      propertyPath: m_TagString
+      value: TeamBlue
       objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
     m_AddedGameObjects: []
     m_AddedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 0a6fbc6a80439c44e8fa5c60397ade7e, type: 3}
---- !u!1001 &1847654331
+--- !u!1001 &1372213722
 PrefabInstance:
   m_ObjectHideFlags: 0
   serializedVersion: 2
@@ -1668,15 +1427,15 @@ PrefabInstance:
     m_Modifications:
     - target: {fileID: 3455300935189126714, guid: 0a6fbc6a80439c44e8fa5c60397ade7e, type: 3}
       propertyPath: m_LocalPosition.x
-      value: 30
+      value: 62.8
       objectReference: {fileID: 0}
     - target: {fileID: 3455300935189126714, guid: 0a6fbc6a80439c44e8fa5c60397ade7e, type: 3}
       propertyPath: m_LocalPosition.y
-      value: 60
+      value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 3455300935189126714, guid: 0a6fbc6a80439c44e8fa5c60397ade7e, type: 3}
       propertyPath: m_LocalPosition.z
-      value: 60
+      value: -32.2
       objectReference: {fileID: 0}
     - target: {fileID: 3455300935189126714, guid: 0a6fbc6a80439c44e8fa5c60397ade7e, type: 3}
       propertyPath: m_LocalRotation.w
@@ -1708,18 +1467,22 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 4079424974632926139, guid: 0a6fbc6a80439c44e8fa5c60397ade7e, type: 3}
       propertyPath: m_Name
-      value: Dojo (22)
+      value: Dojo (14)
       objectReference: {fileID: 0}
-    - target: {fileID: 4079424974632926139, guid: 0a6fbc6a80439c44e8fa5c60397ade7e, type: 3}
-      propertyPath: m_IsActive
-      value: 0
+    - target: {fileID: 4737009618145295304, guid: 0a6fbc6a80439c44e8fa5c60397ade7e, type: 3}
+      propertyPath: m_TagString
+      value: TeamRed
+      objectReference: {fileID: 0}
+    - target: {fileID: 8479009532016358613, guid: 0a6fbc6a80439c44e8fa5c60397ade7e, type: 3}
+      propertyPath: m_TagString
+      value: TeamBlue
       objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
     m_AddedGameObjects: []
     m_AddedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 0a6fbc6a80439c44e8fa5c60397ade7e, type: 3}
---- !u!1001 &1850589351
+--- !u!1001 &1420355504
 PrefabInstance:
   m_ObjectHideFlags: 0
   serializedVersion: 2
@@ -1729,72 +1492,11 @@ PrefabInstance:
     m_Modifications:
     - target: {fileID: 3455300935189126714, guid: 0a6fbc6a80439c44e8fa5c60397ade7e, type: 3}
       propertyPath: m_LocalPosition.x
-      value: 60
+      value: 91.5
       objectReference: {fileID: 0}
     - target: {fileID: 3455300935189126714, guid: 0a6fbc6a80439c44e8fa5c60397ade7e, type: 3}
       propertyPath: m_LocalPosition.y
-      value: 60
-      objectReference: {fileID: 0}
-    - target: {fileID: 3455300935189126714, guid: 0a6fbc6a80439c44e8fa5c60397ade7e, type: 3}
-      propertyPath: m_LocalPosition.z
-      value: 30
-      objectReference: {fileID: 0}
-    - target: {fileID: 3455300935189126714, guid: 0a6fbc6a80439c44e8fa5c60397ade7e, type: 3}
-      propertyPath: m_LocalRotation.w
-      value: 1
-      objectReference: {fileID: 0}
-    - target: {fileID: 3455300935189126714, guid: 0a6fbc6a80439c44e8fa5c60397ade7e, type: 3}
-      propertyPath: m_LocalRotation.x
       value: 0
-      objectReference: {fileID: 0}
-    - target: {fileID: 3455300935189126714, guid: 0a6fbc6a80439c44e8fa5c60397ade7e, type: 3}
-      propertyPath: m_LocalRotation.y
-      value: 0
-      objectReference: {fileID: 0}
-    - target: {fileID: 3455300935189126714, guid: 0a6fbc6a80439c44e8fa5c60397ade7e, type: 3}
-      propertyPath: m_LocalRotation.z
-      value: 0
-      objectReference: {fileID: 0}
-    - target: {fileID: 3455300935189126714, guid: 0a6fbc6a80439c44e8fa5c60397ade7e, type: 3}
-      propertyPath: m_LocalEulerAnglesHint.x
-      value: 0
-      objectReference: {fileID: 0}
-    - target: {fileID: 3455300935189126714, guid: 0a6fbc6a80439c44e8fa5c60397ade7e, type: 3}
-      propertyPath: m_LocalEulerAnglesHint.y
-      value: 0
-      objectReference: {fileID: 0}
-    - target: {fileID: 3455300935189126714, guid: 0a6fbc6a80439c44e8fa5c60397ade7e, type: 3}
-      propertyPath: m_LocalEulerAnglesHint.z
-      value: 0
-      objectReference: {fileID: 0}
-    - target: {fileID: 4079424974632926139, guid: 0a6fbc6a80439c44e8fa5c60397ade7e, type: 3}
-      propertyPath: m_Name
-      value: Dojo (26)
-      objectReference: {fileID: 0}
-    - target: {fileID: 4079424974632926139, guid: 0a6fbc6a80439c44e8fa5c60397ade7e, type: 3}
-      propertyPath: m_IsActive
-      value: 0
-      objectReference: {fileID: 0}
-    m_RemovedComponents: []
-    m_RemovedGameObjects: []
-    m_AddedGameObjects: []
-    m_AddedComponents: []
-  m_SourcePrefab: {fileID: 100100000, guid: 0a6fbc6a80439c44e8fa5c60397ade7e, type: 3}
---- !u!1001 &1976437012
-PrefabInstance:
-  m_ObjectHideFlags: 0
-  serializedVersion: 2
-  m_Modification:
-    serializedVersion: 3
-    m_TransformParent: {fileID: 0}
-    m_Modifications:
-    - target: {fileID: 3455300935189126714, guid: 0a6fbc6a80439c44e8fa5c60397ade7e, type: 3}
-      propertyPath: m_LocalPosition.x
-      value: 30
-      objectReference: {fileID: 0}
-    - target: {fileID: 3455300935189126714, guid: 0a6fbc6a80439c44e8fa5c60397ade7e, type: 3}
-      propertyPath: m_LocalPosition.y
-      value: 30
       objectReference: {fileID: 0}
     - target: {fileID: 3455300935189126714, guid: 0a6fbc6a80439c44e8fa5c60397ade7e, type: 3}
       propertyPath: m_LocalPosition.z
@@ -1830,18 +1532,22 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 4079424974632926139, guid: 0a6fbc6a80439c44e8fa5c60397ade7e, type: 3}
       propertyPath: m_Name
-      value: Dojo (12)
+      value: Dojo (3)
       objectReference: {fileID: 0}
-    - target: {fileID: 4079424974632926139, guid: 0a6fbc6a80439c44e8fa5c60397ade7e, type: 3}
-      propertyPath: m_IsActive
-      value: 0
+    - target: {fileID: 4737009618145295304, guid: 0a6fbc6a80439c44e8fa5c60397ade7e, type: 3}
+      propertyPath: m_TagString
+      value: TeamRed
+      objectReference: {fileID: 0}
+    - target: {fileID: 8479009532016358613, guid: 0a6fbc6a80439c44e8fa5c60397ade7e, type: 3}
+      propertyPath: m_TagString
+      value: TeamBlue
       objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
     m_AddedGameObjects: []
     m_AddedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 0a6fbc6a80439c44e8fa5c60397ade7e, type: 3}
---- !u!1001 &2073474940
+--- !u!1001 &1444953924
 PrefabInstance:
   m_ObjectHideFlags: 0
   serializedVersion: 2
@@ -1851,15 +1557,210 @@ PrefabInstance:
     m_Modifications:
     - target: {fileID: 3455300935189126714, guid: 0a6fbc6a80439c44e8fa5c60397ade7e, type: 3}
       propertyPath: m_LocalPosition.x
-      value: 60
+      value: 185.6
       objectReference: {fileID: 0}
     - target: {fileID: 3455300935189126714, guid: 0a6fbc6a80439c44e8fa5c60397ade7e, type: 3}
       propertyPath: m_LocalPosition.y
-      value: 30
+      value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 3455300935189126714, guid: 0a6fbc6a80439c44e8fa5c60397ade7e, type: 3}
       propertyPath: m_LocalPosition.z
+      value: -64.2
+      objectReference: {fileID: 0}
+    - target: {fileID: 3455300935189126714, guid: 0a6fbc6a80439c44e8fa5c60397ade7e, type: 3}
+      propertyPath: m_LocalRotation.w
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 3455300935189126714, guid: 0a6fbc6a80439c44e8fa5c60397ade7e, type: 3}
+      propertyPath: m_LocalRotation.x
       value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 3455300935189126714, guid: 0a6fbc6a80439c44e8fa5c60397ade7e, type: 3}
+      propertyPath: m_LocalRotation.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 3455300935189126714, guid: 0a6fbc6a80439c44e8fa5c60397ade7e, type: 3}
+      propertyPath: m_LocalRotation.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 3455300935189126714, guid: 0a6fbc6a80439c44e8fa5c60397ade7e, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 3455300935189126714, guid: 0a6fbc6a80439c44e8fa5c60397ade7e, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 3455300935189126714, guid: 0a6fbc6a80439c44e8fa5c60397ade7e, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 4079424974632926139, guid: 0a6fbc6a80439c44e8fa5c60397ade7e, type: 3}
+      propertyPath: m_Name
+      value: Dojo (20)
+      objectReference: {fileID: 0}
+    - target: {fileID: 4737009618145295304, guid: 0a6fbc6a80439c44e8fa5c60397ade7e, type: 3}
+      propertyPath: m_TagString
+      value: TeamRed
+      objectReference: {fileID: 0}
+    - target: {fileID: 8479009532016358613, guid: 0a6fbc6a80439c44e8fa5c60397ade7e, type: 3}
+      propertyPath: m_TagString
+      value: TeamBlue
+      objectReference: {fileID: 0}
+    m_RemovedComponents: []
+    m_RemovedGameObjects: []
+    m_AddedGameObjects: []
+    m_AddedComponents: []
+  m_SourcePrefab: {fileID: 100100000, guid: 0a6fbc6a80439c44e8fa5c60397ade7e, type: 3}
+--- !u!1001 &1460025934
+PrefabInstance:
+  m_ObjectHideFlags: 0
+  serializedVersion: 2
+  m_Modification:
+    serializedVersion: 3
+    m_TransformParent: {fileID: 0}
+    m_Modifications:
+    - target: {fileID: 3455300935189126714, guid: 0a6fbc6a80439c44e8fa5c60397ade7e, type: 3}
+      propertyPath: m_LocalPosition.x
+      value: 62.8
+      objectReference: {fileID: 0}
+    - target: {fileID: 3455300935189126714, guid: 0a6fbc6a80439c44e8fa5c60397ade7e, type: 3}
+      propertyPath: m_LocalPosition.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 3455300935189126714, guid: 0a6fbc6a80439c44e8fa5c60397ade7e, type: 3}
+      propertyPath: m_LocalPosition.z
+      value: -99.3
+      objectReference: {fileID: 0}
+    - target: {fileID: 3455300935189126714, guid: 0a6fbc6a80439c44e8fa5c60397ade7e, type: 3}
+      propertyPath: m_LocalRotation.w
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 3455300935189126714, guid: 0a6fbc6a80439c44e8fa5c60397ade7e, type: 3}
+      propertyPath: m_LocalRotation.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 3455300935189126714, guid: 0a6fbc6a80439c44e8fa5c60397ade7e, type: 3}
+      propertyPath: m_LocalRotation.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 3455300935189126714, guid: 0a6fbc6a80439c44e8fa5c60397ade7e, type: 3}
+      propertyPath: m_LocalRotation.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 3455300935189126714, guid: 0a6fbc6a80439c44e8fa5c60397ade7e, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 3455300935189126714, guid: 0a6fbc6a80439c44e8fa5c60397ade7e, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 3455300935189126714, guid: 0a6fbc6a80439c44e8fa5c60397ade7e, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 4079424974632926139, guid: 0a6fbc6a80439c44e8fa5c60397ade7e, type: 3}
+      propertyPath: m_Name
+      value: Dojo (30)
+      objectReference: {fileID: 0}
+    - target: {fileID: 4737009618145295304, guid: 0a6fbc6a80439c44e8fa5c60397ade7e, type: 3}
+      propertyPath: m_TagString
+      value: TeamRed
+      objectReference: {fileID: 0}
+    - target: {fileID: 8479009532016358613, guid: 0a6fbc6a80439c44e8fa5c60397ade7e, type: 3}
+      propertyPath: m_TagString
+      value: TeamBlue
+      objectReference: {fileID: 0}
+    m_RemovedComponents: []
+    m_RemovedGameObjects: []
+    m_AddedGameObjects: []
+    m_AddedComponents: []
+  m_SourcePrefab: {fileID: 100100000, guid: 0a6fbc6a80439c44e8fa5c60397ade7e, type: 3}
+--- !u!1001 &1509593389
+PrefabInstance:
+  m_ObjectHideFlags: 0
+  serializedVersion: 2
+  m_Modification:
+    serializedVersion: 3
+    m_TransformParent: {fileID: 0}
+    m_Modifications:
+    - target: {fileID: 3455300935189126714, guid: 0a6fbc6a80439c44e8fa5c60397ade7e, type: 3}
+      propertyPath: m_LocalPosition.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 3455300935189126714, guid: 0a6fbc6a80439c44e8fa5c60397ade7e, type: 3}
+      propertyPath: m_LocalPosition.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 3455300935189126714, guid: 0a6fbc6a80439c44e8fa5c60397ade7e, type: 3}
+      propertyPath: m_LocalPosition.z
+      value: -64.2
+      objectReference: {fileID: 0}
+    - target: {fileID: 3455300935189126714, guid: 0a6fbc6a80439c44e8fa5c60397ade7e, type: 3}
+      propertyPath: m_LocalRotation.w
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 3455300935189126714, guid: 0a6fbc6a80439c44e8fa5c60397ade7e, type: 3}
+      propertyPath: m_LocalRotation.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 3455300935189126714, guid: 0a6fbc6a80439c44e8fa5c60397ade7e, type: 3}
+      propertyPath: m_LocalRotation.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 3455300935189126714, guid: 0a6fbc6a80439c44e8fa5c60397ade7e, type: 3}
+      propertyPath: m_LocalRotation.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 3455300935189126714, guid: 0a6fbc6a80439c44e8fa5c60397ade7e, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 3455300935189126714, guid: 0a6fbc6a80439c44e8fa5c60397ade7e, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 3455300935189126714, guid: 0a6fbc6a80439c44e8fa5c60397ade7e, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 4079424974632926139, guid: 0a6fbc6a80439c44e8fa5c60397ade7e, type: 3}
+      propertyPath: m_Name
+      value: Dojo (16)
+      objectReference: {fileID: 0}
+    - target: {fileID: 4737009618145295304, guid: 0a6fbc6a80439c44e8fa5c60397ade7e, type: 3}
+      propertyPath: m_TagString
+      value: TeamRed
+      objectReference: {fileID: 0}
+    - target: {fileID: 8479009532016358613, guid: 0a6fbc6a80439c44e8fa5c60397ade7e, type: 3}
+      propertyPath: m_TagString
+      value: TeamBlue
+      objectReference: {fileID: 0}
+    m_RemovedComponents: []
+    m_RemovedGameObjects: []
+    m_AddedGameObjects: []
+    m_AddedComponents: []
+  m_SourcePrefab: {fileID: 100100000, guid: 0a6fbc6a80439c44e8fa5c60397ade7e, type: 3}
+--- !u!1001 &1531433291
+PrefabInstance:
+  m_ObjectHideFlags: 0
+  serializedVersion: 2
+  m_Modification:
+    serializedVersion: 3
+    m_TransformParent: {fileID: 0}
+    m_Modifications:
+    - target: {fileID: 3455300935189126714, guid: 0a6fbc6a80439c44e8fa5c60397ade7e, type: 3}
+      propertyPath: m_LocalPosition.x
+      value: 91.5
+      objectReference: {fileID: 0}
+    - target: {fileID: 3455300935189126714, guid: 0a6fbc6a80439c44e8fa5c60397ade7e, type: 3}
+      propertyPath: m_LocalPosition.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 3455300935189126714, guid: 0a6fbc6a80439c44e8fa5c60397ade7e, type: 3}
+      propertyPath: m_LocalPosition.z
+      value: -32.2
       objectReference: {fileID: 0}
     - target: {fileID: 3455300935189126714, guid: 0a6fbc6a80439c44e8fa5c60397ade7e, type: 3}
       propertyPath: m_LocalRotation.w
@@ -1893,16 +1794,20 @@ PrefabInstance:
       propertyPath: m_Name
       value: Dojo (15)
       objectReference: {fileID: 0}
-    - target: {fileID: 4079424974632926139, guid: 0a6fbc6a80439c44e8fa5c60397ade7e, type: 3}
-      propertyPath: m_IsActive
-      value: 0
+    - target: {fileID: 4737009618145295304, guid: 0a6fbc6a80439c44e8fa5c60397ade7e, type: 3}
+      propertyPath: m_TagString
+      value: TeamRed
+      objectReference: {fileID: 0}
+    - target: {fileID: 8479009532016358613, guid: 0a6fbc6a80439c44e8fa5c60397ade7e, type: 3}
+      propertyPath: m_TagString
+      value: TeamBlue
       objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
     m_AddedGameObjects: []
     m_AddedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 0a6fbc6a80439c44e8fa5c60397ade7e, type: 3}
---- !u!1001 &2086277659
+--- !u!1001 &1562887198
 PrefabInstance:
   m_ObjectHideFlags: 0
   serializedVersion: 2
@@ -1912,15 +1817,145 @@ PrefabInstance:
     m_Modifications:
     - target: {fileID: 3455300935189126714, guid: 0a6fbc6a80439c44e8fa5c60397ade7e, type: 3}
       propertyPath: m_LocalPosition.x
-      value: 0
+      value: 91.5
       objectReference: {fileID: 0}
     - target: {fileID: 3455300935189126714, guid: 0a6fbc6a80439c44e8fa5c60397ade7e, type: 3}
       propertyPath: m_LocalPosition.y
-      value: 30
+      value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 3455300935189126714, guid: 0a6fbc6a80439c44e8fa5c60397ade7e, type: 3}
       propertyPath: m_LocalPosition.z
-      value: 60
+      value: -64.2
+      objectReference: {fileID: 0}
+    - target: {fileID: 3455300935189126714, guid: 0a6fbc6a80439c44e8fa5c60397ade7e, type: 3}
+      propertyPath: m_LocalRotation.w
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 3455300935189126714, guid: 0a6fbc6a80439c44e8fa5c60397ade7e, type: 3}
+      propertyPath: m_LocalRotation.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 3455300935189126714, guid: 0a6fbc6a80439c44e8fa5c60397ade7e, type: 3}
+      propertyPath: m_LocalRotation.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 3455300935189126714, guid: 0a6fbc6a80439c44e8fa5c60397ade7e, type: 3}
+      propertyPath: m_LocalRotation.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 3455300935189126714, guid: 0a6fbc6a80439c44e8fa5c60397ade7e, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 3455300935189126714, guid: 0a6fbc6a80439c44e8fa5c60397ade7e, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 3455300935189126714, guid: 0a6fbc6a80439c44e8fa5c60397ade7e, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 4079424974632926139, guid: 0a6fbc6a80439c44e8fa5c60397ade7e, type: 3}
+      propertyPath: m_Name
+      value: Dojo (23)
+      objectReference: {fileID: 0}
+    - target: {fileID: 4737009618145295304, guid: 0a6fbc6a80439c44e8fa5c60397ade7e, type: 3}
+      propertyPath: m_TagString
+      value: TeamRed
+      objectReference: {fileID: 0}
+    - target: {fileID: 8479009532016358613, guid: 0a6fbc6a80439c44e8fa5c60397ade7e, type: 3}
+      propertyPath: m_TagString
+      value: TeamBlue
+      objectReference: {fileID: 0}
+    m_RemovedComponents: []
+    m_RemovedGameObjects: []
+    m_AddedGameObjects: []
+    m_AddedComponents: []
+  m_SourcePrefab: {fileID: 100100000, guid: 0a6fbc6a80439c44e8fa5c60397ade7e, type: 3}
+--- !u!1001 &1708357725
+PrefabInstance:
+  m_ObjectHideFlags: 0
+  serializedVersion: 2
+  m_Modification:
+    serializedVersion: 3
+    m_TransformParent: {fileID: 0}
+    m_Modifications:
+    - target: {fileID: 3455300935189126714, guid: 0a6fbc6a80439c44e8fa5c60397ade7e, type: 3}
+      propertyPath: m_LocalPosition.x
+      value: 185.6
+      objectReference: {fileID: 0}
+    - target: {fileID: 3455300935189126714, guid: 0a6fbc6a80439c44e8fa5c60397ade7e, type: 3}
+      propertyPath: m_LocalPosition.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 3455300935189126714, guid: 0a6fbc6a80439c44e8fa5c60397ade7e, type: 3}
+      propertyPath: m_LocalPosition.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 3455300935189126714, guid: 0a6fbc6a80439c44e8fa5c60397ade7e, type: 3}
+      propertyPath: m_LocalRotation.w
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 3455300935189126714, guid: 0a6fbc6a80439c44e8fa5c60397ade7e, type: 3}
+      propertyPath: m_LocalRotation.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 3455300935189126714, guid: 0a6fbc6a80439c44e8fa5c60397ade7e, type: 3}
+      propertyPath: m_LocalRotation.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 3455300935189126714, guid: 0a6fbc6a80439c44e8fa5c60397ade7e, type: 3}
+      propertyPath: m_LocalRotation.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 3455300935189126714, guid: 0a6fbc6a80439c44e8fa5c60397ade7e, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 3455300935189126714, guid: 0a6fbc6a80439c44e8fa5c60397ade7e, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 3455300935189126714, guid: 0a6fbc6a80439c44e8fa5c60397ade7e, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 4079424974632926139, guid: 0a6fbc6a80439c44e8fa5c60397ade7e, type: 3}
+      propertyPath: m_Name
+      value: Dojo (6)
+      objectReference: {fileID: 0}
+    - target: {fileID: 4737009618145295304, guid: 0a6fbc6a80439c44e8fa5c60397ade7e, type: 3}
+      propertyPath: m_TagString
+      value: TeamRed
+      objectReference: {fileID: 0}
+    - target: {fileID: 8479009532016358613, guid: 0a6fbc6a80439c44e8fa5c60397ade7e, type: 3}
+      propertyPath: m_TagString
+      value: TeamBlue
+      objectReference: {fileID: 0}
+    m_RemovedComponents: []
+    m_RemovedGameObjects: []
+    m_AddedGameObjects: []
+    m_AddedComponents: []
+  m_SourcePrefab: {fileID: 100100000, guid: 0a6fbc6a80439c44e8fa5c60397ade7e, type: 3}
+--- !u!1001 &1855089276
+PrefabInstance:
+  m_ObjectHideFlags: 0
+  serializedVersion: 2
+  m_Modification:
+    serializedVersion: 3
+    m_TransformParent: {fileID: 0}
+    m_Modifications:
+    - target: {fileID: 3455300935189126714, guid: 0a6fbc6a80439c44e8fa5c60397ade7e, type: 3}
+      propertyPath: m_LocalPosition.x
+      value: 122.8
+      objectReference: {fileID: 0}
+    - target: {fileID: 3455300935189126714, guid: 0a6fbc6a80439c44e8fa5c60397ade7e, type: 3}
+      propertyPath: m_LocalPosition.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 3455300935189126714, guid: 0a6fbc6a80439c44e8fa5c60397ade7e, type: 3}
+      propertyPath: m_LocalPosition.z
+      value: -32.2
       objectReference: {fileID: 0}
     - target: {fileID: 3455300935189126714, guid: 0a6fbc6a80439c44e8fa5c60397ade7e, type: 3}
       propertyPath: m_LocalRotation.w
@@ -1954,9 +1989,403 @@ PrefabInstance:
       propertyPath: m_Name
       value: Dojo (10)
       objectReference: {fileID: 0}
-    - target: {fileID: 4079424974632926139, guid: 0a6fbc6a80439c44e8fa5c60397ade7e, type: 3}
-      propertyPath: m_IsActive
+    - target: {fileID: 4737009618145295304, guid: 0a6fbc6a80439c44e8fa5c60397ade7e, type: 3}
+      propertyPath: m_TagString
+      value: TeamRed
+      objectReference: {fileID: 0}
+    - target: {fileID: 8479009532016358613, guid: 0a6fbc6a80439c44e8fa5c60397ade7e, type: 3}
+      propertyPath: m_TagString
+      value: TeamBlue
+      objectReference: {fileID: 0}
+    m_RemovedComponents: []
+    m_RemovedGameObjects: []
+    m_AddedGameObjects: []
+    m_AddedComponents: []
+  m_SourcePrefab: {fileID: 100100000, guid: 0a6fbc6a80439c44e8fa5c60397ade7e, type: 3}
+--- !u!1001 &1863363488
+PrefabInstance:
+  m_ObjectHideFlags: 0
+  serializedVersion: 2
+  m_Modification:
+    serializedVersion: 3
+    m_TransformParent: {fileID: 0}
+    m_Modifications:
+    - target: {fileID: 3455300935189126714, guid: 0a6fbc6a80439c44e8fa5c60397ade7e, type: 3}
+      propertyPath: m_LocalPosition.x
       value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 3455300935189126714, guid: 0a6fbc6a80439c44e8fa5c60397ade7e, type: 3}
+      propertyPath: m_LocalPosition.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 3455300935189126714, guid: 0a6fbc6a80439c44e8fa5c60397ade7e, type: 3}
+      propertyPath: m_LocalPosition.z
+      value: -32.2
+      objectReference: {fileID: 0}
+    - target: {fileID: 3455300935189126714, guid: 0a6fbc6a80439c44e8fa5c60397ade7e, type: 3}
+      propertyPath: m_LocalRotation.w
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 3455300935189126714, guid: 0a6fbc6a80439c44e8fa5c60397ade7e, type: 3}
+      propertyPath: m_LocalRotation.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 3455300935189126714, guid: 0a6fbc6a80439c44e8fa5c60397ade7e, type: 3}
+      propertyPath: m_LocalRotation.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 3455300935189126714, guid: 0a6fbc6a80439c44e8fa5c60397ade7e, type: 3}
+      propertyPath: m_LocalRotation.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 3455300935189126714, guid: 0a6fbc6a80439c44e8fa5c60397ade7e, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 3455300935189126714, guid: 0a6fbc6a80439c44e8fa5c60397ade7e, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 3455300935189126714, guid: 0a6fbc6a80439c44e8fa5c60397ade7e, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 4079424974632926139, guid: 0a6fbc6a80439c44e8fa5c60397ade7e, type: 3}
+      propertyPath: m_Name
+      value: Dojo (8)
+      objectReference: {fileID: 0}
+    - target: {fileID: 4737009618145295304, guid: 0a6fbc6a80439c44e8fa5c60397ade7e, type: 3}
+      propertyPath: m_TagString
+      value: TeamRed
+      objectReference: {fileID: 0}
+    - target: {fileID: 8479009532016358613, guid: 0a6fbc6a80439c44e8fa5c60397ade7e, type: 3}
+      propertyPath: m_TagString
+      value: TeamBlue
+      objectReference: {fileID: 0}
+    m_RemovedComponents: []
+    m_RemovedGameObjects: []
+    m_AddedGameObjects: []
+    m_AddedComponents: []
+  m_SourcePrefab: {fileID: 100100000, guid: 0a6fbc6a80439c44e8fa5c60397ade7e, type: 3}
+--- !u!1001 &1885327808
+PrefabInstance:
+  m_ObjectHideFlags: 0
+  serializedVersion: 2
+  m_Modification:
+    serializedVersion: 3
+    m_TransformParent: {fileID: 0}
+    m_Modifications:
+    - target: {fileID: 3455300935189126714, guid: 0a6fbc6a80439c44e8fa5c60397ade7e, type: 3}
+      propertyPath: m_LocalPosition.x
+      value: 122.8
+      objectReference: {fileID: 0}
+    - target: {fileID: 3455300935189126714, guid: 0a6fbc6a80439c44e8fa5c60397ade7e, type: 3}
+      propertyPath: m_LocalPosition.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 3455300935189126714, guid: 0a6fbc6a80439c44e8fa5c60397ade7e, type: 3}
+      propertyPath: m_LocalPosition.z
+      value: -99.3
+      objectReference: {fileID: 0}
+    - target: {fileID: 3455300935189126714, guid: 0a6fbc6a80439c44e8fa5c60397ade7e, type: 3}
+      propertyPath: m_LocalRotation.w
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 3455300935189126714, guid: 0a6fbc6a80439c44e8fa5c60397ade7e, type: 3}
+      propertyPath: m_LocalRotation.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 3455300935189126714, guid: 0a6fbc6a80439c44e8fa5c60397ade7e, type: 3}
+      propertyPath: m_LocalRotation.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 3455300935189126714, guid: 0a6fbc6a80439c44e8fa5c60397ade7e, type: 3}
+      propertyPath: m_LocalRotation.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 3455300935189126714, guid: 0a6fbc6a80439c44e8fa5c60397ade7e, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 3455300935189126714, guid: 0a6fbc6a80439c44e8fa5c60397ade7e, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 3455300935189126714, guid: 0a6fbc6a80439c44e8fa5c60397ade7e, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 4079424974632926139, guid: 0a6fbc6a80439c44e8fa5c60397ade7e, type: 3}
+      propertyPath: m_Name
+      value: Dojo (26)
+      objectReference: {fileID: 0}
+    - target: {fileID: 4737009618145295304, guid: 0a6fbc6a80439c44e8fa5c60397ade7e, type: 3}
+      propertyPath: m_TagString
+      value: TeamRed
+      objectReference: {fileID: 0}
+    - target: {fileID: 8479009532016358613, guid: 0a6fbc6a80439c44e8fa5c60397ade7e, type: 3}
+      propertyPath: m_TagString
+      value: TeamBlue
+      objectReference: {fileID: 0}
+    m_RemovedComponents: []
+    m_RemovedGameObjects: []
+    m_AddedGameObjects: []
+    m_AddedComponents: []
+  m_SourcePrefab: {fileID: 100100000, guid: 0a6fbc6a80439c44e8fa5c60397ade7e, type: 3}
+--- !u!1001 &1888979502
+PrefabInstance:
+  m_ObjectHideFlags: 0
+  serializedVersion: 2
+  m_Modification:
+    serializedVersion: 3
+    m_TransformParent: {fileID: 0}
+    m_Modifications:
+    - target: {fileID: 3455300935189126714, guid: 0a6fbc6a80439c44e8fa5c60397ade7e, type: 3}
+      propertyPath: m_LocalPosition.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 3455300935189126714, guid: 0a6fbc6a80439c44e8fa5c60397ade7e, type: 3}
+      propertyPath: m_LocalPosition.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 3455300935189126714, guid: 0a6fbc6a80439c44e8fa5c60397ade7e, type: 3}
+      propertyPath: m_LocalPosition.z
+      value: -99.3
+      objectReference: {fileID: 0}
+    - target: {fileID: 3455300935189126714, guid: 0a6fbc6a80439c44e8fa5c60397ade7e, type: 3}
+      propertyPath: m_LocalRotation.w
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 3455300935189126714, guid: 0a6fbc6a80439c44e8fa5c60397ade7e, type: 3}
+      propertyPath: m_LocalRotation.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 3455300935189126714, guid: 0a6fbc6a80439c44e8fa5c60397ade7e, type: 3}
+      propertyPath: m_LocalRotation.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 3455300935189126714, guid: 0a6fbc6a80439c44e8fa5c60397ade7e, type: 3}
+      propertyPath: m_LocalRotation.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 3455300935189126714, guid: 0a6fbc6a80439c44e8fa5c60397ade7e, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 3455300935189126714, guid: 0a6fbc6a80439c44e8fa5c60397ade7e, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 3455300935189126714, guid: 0a6fbc6a80439c44e8fa5c60397ade7e, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 4079424974632926139, guid: 0a6fbc6a80439c44e8fa5c60397ade7e, type: 3}
+      propertyPath: m_Name
+      value: Dojo (24)
+      objectReference: {fileID: 0}
+    - target: {fileID: 4737009618145295304, guid: 0a6fbc6a80439c44e8fa5c60397ade7e, type: 3}
+      propertyPath: m_TagString
+      value: TeamRed
+      objectReference: {fileID: 0}
+    - target: {fileID: 8479009532016358613, guid: 0a6fbc6a80439c44e8fa5c60397ade7e, type: 3}
+      propertyPath: m_TagString
+      value: TeamBlue
+      objectReference: {fileID: 0}
+    m_RemovedComponents: []
+    m_RemovedGameObjects: []
+    m_AddedGameObjects: []
+    m_AddedComponents: []
+  m_SourcePrefab: {fileID: 100100000, guid: 0a6fbc6a80439c44e8fa5c60397ade7e, type: 3}
+--- !u!1001 &1896995273
+PrefabInstance:
+  m_ObjectHideFlags: 0
+  serializedVersion: 2
+  m_Modification:
+    serializedVersion: 3
+    m_TransformParent: {fileID: 0}
+    m_Modifications:
+    - target: {fileID: 3455300935189126714, guid: 0a6fbc6a80439c44e8fa5c60397ade7e, type: 3}
+      propertyPath: m_LocalPosition.x
+      value: 185.6
+      objectReference: {fileID: 0}
+    - target: {fileID: 3455300935189126714, guid: 0a6fbc6a80439c44e8fa5c60397ade7e, type: 3}
+      propertyPath: m_LocalPosition.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 3455300935189126714, guid: 0a6fbc6a80439c44e8fa5c60397ade7e, type: 3}
+      propertyPath: m_LocalPosition.z
+      value: -99.3
+      objectReference: {fileID: 0}
+    - target: {fileID: 3455300935189126714, guid: 0a6fbc6a80439c44e8fa5c60397ade7e, type: 3}
+      propertyPath: m_LocalRotation.w
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 3455300935189126714, guid: 0a6fbc6a80439c44e8fa5c60397ade7e, type: 3}
+      propertyPath: m_LocalRotation.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 3455300935189126714, guid: 0a6fbc6a80439c44e8fa5c60397ade7e, type: 3}
+      propertyPath: m_LocalRotation.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 3455300935189126714, guid: 0a6fbc6a80439c44e8fa5c60397ade7e, type: 3}
+      propertyPath: m_LocalRotation.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 3455300935189126714, guid: 0a6fbc6a80439c44e8fa5c60397ade7e, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 3455300935189126714, guid: 0a6fbc6a80439c44e8fa5c60397ade7e, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 3455300935189126714, guid: 0a6fbc6a80439c44e8fa5c60397ade7e, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 4079424974632926139, guid: 0a6fbc6a80439c44e8fa5c60397ade7e, type: 3}
+      propertyPath: m_Name
+      value: Dojo (28)
+      objectReference: {fileID: 0}
+    - target: {fileID: 4737009618145295304, guid: 0a6fbc6a80439c44e8fa5c60397ade7e, type: 3}
+      propertyPath: m_TagString
+      value: TeamRed
+      objectReference: {fileID: 0}
+    - target: {fileID: 8479009532016358613, guid: 0a6fbc6a80439c44e8fa5c60397ade7e, type: 3}
+      propertyPath: m_TagString
+      value: TeamBlue
+      objectReference: {fileID: 0}
+    m_RemovedComponents: []
+    m_RemovedGameObjects: []
+    m_AddedGameObjects: []
+    m_AddedComponents: []
+  m_SourcePrefab: {fileID: 100100000, guid: 0a6fbc6a80439c44e8fa5c60397ade7e, type: 3}
+--- !u!1001 &1937419218
+PrefabInstance:
+  m_ObjectHideFlags: 0
+  serializedVersion: 2
+  m_Modification:
+    serializedVersion: 3
+    m_TransformParent: {fileID: 0}
+    m_Modifications:
+    - target: {fileID: 3455300935189126714, guid: 0a6fbc6a80439c44e8fa5c60397ade7e, type: 3}
+      propertyPath: m_LocalPosition.x
+      value: 153.3
+      objectReference: {fileID: 0}
+    - target: {fileID: 3455300935189126714, guid: 0a6fbc6a80439c44e8fa5c60397ade7e, type: 3}
+      propertyPath: m_LocalPosition.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 3455300935189126714, guid: 0a6fbc6a80439c44e8fa5c60397ade7e, type: 3}
+      propertyPath: m_LocalPosition.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 3455300935189126714, guid: 0a6fbc6a80439c44e8fa5c60397ade7e, type: 3}
+      propertyPath: m_LocalRotation.w
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 3455300935189126714, guid: 0a6fbc6a80439c44e8fa5c60397ade7e, type: 3}
+      propertyPath: m_LocalRotation.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 3455300935189126714, guid: 0a6fbc6a80439c44e8fa5c60397ade7e, type: 3}
+      propertyPath: m_LocalRotation.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 3455300935189126714, guid: 0a6fbc6a80439c44e8fa5c60397ade7e, type: 3}
+      propertyPath: m_LocalRotation.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 3455300935189126714, guid: 0a6fbc6a80439c44e8fa5c60397ade7e, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 3455300935189126714, guid: 0a6fbc6a80439c44e8fa5c60397ade7e, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 3455300935189126714, guid: 0a6fbc6a80439c44e8fa5c60397ade7e, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 4079424974632926139, guid: 0a6fbc6a80439c44e8fa5c60397ade7e, type: 3}
+      propertyPath: m_Name
+      value: Dojo (5)
+      objectReference: {fileID: 0}
+    - target: {fileID: 4737009618145295304, guid: 0a6fbc6a80439c44e8fa5c60397ade7e, type: 3}
+      propertyPath: m_TagString
+      value: TeamRed
+      objectReference: {fileID: 0}
+    - target: {fileID: 8479009532016358613, guid: 0a6fbc6a80439c44e8fa5c60397ade7e, type: 3}
+      propertyPath: m_TagString
+      value: TeamBlue
+      objectReference: {fileID: 0}
+    m_RemovedComponents: []
+    m_RemovedGameObjects: []
+    m_AddedGameObjects: []
+    m_AddedComponents: []
+  m_SourcePrefab: {fileID: 100100000, guid: 0a6fbc6a80439c44e8fa5c60397ade7e, type: 3}
+--- !u!1001 &2076852688
+PrefabInstance:
+  m_ObjectHideFlags: 0
+  serializedVersion: 2
+  m_Modification:
+    serializedVersion: 3
+    m_TransformParent: {fileID: 0}
+    m_Modifications:
+    - target: {fileID: 3455300935189126714, guid: 0a6fbc6a80439c44e8fa5c60397ade7e, type: 3}
+      propertyPath: m_LocalPosition.x
+      value: 30.5
+      objectReference: {fileID: 0}
+    - target: {fileID: 3455300935189126714, guid: 0a6fbc6a80439c44e8fa5c60397ade7e, type: 3}
+      propertyPath: m_LocalPosition.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 3455300935189126714, guid: 0a6fbc6a80439c44e8fa5c60397ade7e, type: 3}
+      propertyPath: m_LocalPosition.z
+      value: -64.2
+      objectReference: {fileID: 0}
+    - target: {fileID: 3455300935189126714, guid: 0a6fbc6a80439c44e8fa5c60397ade7e, type: 3}
+      propertyPath: m_LocalRotation.w
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 3455300935189126714, guid: 0a6fbc6a80439c44e8fa5c60397ade7e, type: 3}
+      propertyPath: m_LocalRotation.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 3455300935189126714, guid: 0a6fbc6a80439c44e8fa5c60397ade7e, type: 3}
+      propertyPath: m_LocalRotation.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 3455300935189126714, guid: 0a6fbc6a80439c44e8fa5c60397ade7e, type: 3}
+      propertyPath: m_LocalRotation.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 3455300935189126714, guid: 0a6fbc6a80439c44e8fa5c60397ade7e, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 3455300935189126714, guid: 0a6fbc6a80439c44e8fa5c60397ade7e, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 3455300935189126714, guid: 0a6fbc6a80439c44e8fa5c60397ade7e, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 4079424974632926139, guid: 0a6fbc6a80439c44e8fa5c60397ade7e, type: 3}
+      propertyPath: m_Name
+      value: Dojo (17)
+      objectReference: {fileID: 0}
+    - target: {fileID: 4737009618145295304, guid: 0a6fbc6a80439c44e8fa5c60397ade7e, type: 3}
+      propertyPath: m_TagString
+      value: TeamRed
+      objectReference: {fileID: 0}
+    - target: {fileID: 8479009532016358613, guid: 0a6fbc6a80439c44e8fa5c60397ade7e, type: 3}
+      propertyPath: m_TagString
+      value: TeamBlue
       objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
@@ -2028,94 +2457,41 @@ PrefabInstance:
     m_AddedGameObjects: []
     m_AddedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 0a6fbc6a80439c44e8fa5c60397ade7e, type: 3}
---- !u!1001 &6972552937192618421
-PrefabInstance:
-  m_ObjectHideFlags: 0
-  serializedVersion: 2
-  m_Modification:
-    serializedVersion: 3
-    m_TransformParent: {fileID: 0}
-    m_Modifications:
-    - target: {fileID: 1402642725408560810, guid: e8da3f16532d4c04babebef2a6ce1a9e, type: 3}
-      propertyPath: m_LocalPosition.x
-      value: -0.59
-      objectReference: {fileID: 0}
-    - target: {fileID: 1402642725408560810, guid: e8da3f16532d4c04babebef2a6ce1a9e, type: 3}
-      propertyPath: m_LocalPosition.y
-      value: 5.47
-      objectReference: {fileID: 0}
-    - target: {fileID: 1402642725408560810, guid: e8da3f16532d4c04babebef2a6ce1a9e, type: 3}
-      propertyPath: m_LocalPosition.z
-      value: 7.14
-      objectReference: {fileID: 0}
-    - target: {fileID: 1402642725408560810, guid: e8da3f16532d4c04babebef2a6ce1a9e, type: 3}
-      propertyPath: m_LocalRotation.w
-      value: 0.7071068
-      objectReference: {fileID: 0}
-    - target: {fileID: 1402642725408560810, guid: e8da3f16532d4c04babebef2a6ce1a9e, type: 3}
-      propertyPath: m_LocalRotation.x
-      value: 0.7071068
-      objectReference: {fileID: 0}
-    - target: {fileID: 1402642725408560810, guid: e8da3f16532d4c04babebef2a6ce1a9e, type: 3}
-      propertyPath: m_LocalRotation.y
-      value: -0
-      objectReference: {fileID: 0}
-    - target: {fileID: 1402642725408560810, guid: e8da3f16532d4c04babebef2a6ce1a9e, type: 3}
-      propertyPath: m_LocalRotation.z
-      value: -0
-      objectReference: {fileID: 0}
-    - target: {fileID: 1402642725408560810, guid: e8da3f16532d4c04babebef2a6ce1a9e, type: 3}
-      propertyPath: m_LocalEulerAnglesHint.x
-      value: 0
-      objectReference: {fileID: 0}
-    - target: {fileID: 1402642725408560810, guid: e8da3f16532d4c04babebef2a6ce1a9e, type: 3}
-      propertyPath: m_LocalEulerAnglesHint.y
-      value: 0
-      objectReference: {fileID: 0}
-    - target: {fileID: 1402642725408560810, guid: e8da3f16532d4c04babebef2a6ce1a9e, type: 3}
-      propertyPath: m_LocalEulerAnglesHint.z
-      value: 0
-      objectReference: {fileID: 0}
-    - target: {fileID: 3949640693668964893, guid: e8da3f16532d4c04babebef2a6ce1a9e, type: 3}
-      propertyPath: m_Name
-      value: GarlicGrenade
-      objectReference: {fileID: 0}
-    m_RemovedComponents: []
-    m_RemovedGameObjects: []
-    m_AddedGameObjects: []
-    m_AddedComponents: []
-  m_SourcePrefab: {fileID: 100100000, guid: e8da3f16532d4c04babebef2a6ce1a9e, type: 3}
 --- !u!1660057539 &9223372036854775807
 SceneRoots:
   m_ObjectHideFlags: 0
   m_Roots:
-  - {fileID: 6972552937192618421}
   - {fileID: 531804115}
   - {fileID: 840312981}
   - {fileID: 1748657582166374737}
-  - {fileID: 787429002}
-  - {fileID: 1620535148}
-  - {fileID: 1291650194}
-  - {fileID: 2086277659}
-  - {fileID: 506069903}
-  - {fileID: 719373517}
-  - {fileID: 803466892}
-  - {fileID: 1716553809}
-  - {fileID: 1838890162}
-  - {fileID: 1976437012}
-  - {fileID: 481998871}
-  - {fileID: 1724756393}
-  - {fileID: 1236938489}
-  - {fileID: 1847654331}
-  - {fileID: 696934655}
-  - {fileID: 1743324713}
-  - {fileID: 389415295}
-  - {fileID: 1779810074}
-  - {fileID: 2073474940}
-  - {fileID: 805042842}
-  - {fileID: 1488235866}
-  - {fileID: 1644039569}
-  - {fileID: 1630974440}
-  - {fileID: 413004978}
-  - {fileID: 1296996283}
-  - {fileID: 1850589351}
+  - {fileID: 1863363488}
+  - {fileID: 1509593389}
+  - {fileID: 1888979502}
+  - {fileID: 1307543430}
+  - {fileID: 108402015}
+  - {fileID: 2076852688}
+  - {fileID: 1188000068}
+  - {fileID: 1217423431}
+  - {fileID: 1855089276}
+  - {fileID: 1258219725}
+  - {fileID: 1885327808}
+  - {fileID: 1937419218}
+  - {fileID: 227879853}
+  - {fileID: 1300167850}
+  - {fileID: 443759295}
+  - {fileID: 1708357725}
+  - {fileID: 1279364429}
+  - {fileID: 1444953924}
+  - {fileID: 1896995273}
+  - {fileID: 608284495}
+  - {fileID: 56828702}
+  - {fileID: 2418241}
+  - {fileID: 612249449}
+  - {fileID: 1120708916}
+  - {fileID: 1372213722}
+  - {fileID: 887227268}
+  - {fileID: 1460025934}
+  - {fileID: 1420355504}
+  - {fileID: 1531433291}
+  - {fileID: 1562887198}
+  - {fileID: 1278861953}

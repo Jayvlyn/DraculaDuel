@@ -39,7 +39,7 @@ public class DraculaAgent : Agent
 		
 		Transform enemyTransform = null;
 		Vector3 closestWallHit = Vector3.zero;
-		float closestWallHitDist = float.PositiveInfinity;
+		float closestWallHitDist = 10000;
 		int wallCount = 0;
 		foreach (var target in hitData)
 		{
@@ -64,7 +64,7 @@ public class DraculaAgent : Agent
 			//1
 			sensor.AddObservation(enemyTransform.localPosition);
 
-			AddReward(2);
+			AddReward(10);
 		}
 		else
 		{
@@ -84,21 +84,25 @@ public class DraculaAgent : Agent
 		sensor.AddObservation(spawnTransform.localPosition);
 
 		float distFromSpawn = Vector3.Distance(spawnTransform.localPosition, transform.localPosition);
-		if(distFromSpawn < 5)
+		if(distFromSpawn > 1f)
 		{
-			AddReward(distFromSpawn);
+			//AddReward(distFromSpawn / 10);
 		}
 		//7
 		sensor.AddObservation(distFromSpawn);
 
 		//8
-		sensor.AddObservation((float)latestData.hits / (latestData.hits + latestData.misses));
+		if (latestData != null) sensor.AddObservation((float)latestData.hits / (latestData.hits + latestData.misses));
+		else sensor.AddObservation(0);
 
 		if(health.currentHealth <= 0)
 		{
+			Debug.Log("End Episoe");
 			AddReward(-10);
 			EndEpisode();
 		}
+
+
 	}
 
 	public override void OnActionReceived(ActionBuffers actions)
@@ -112,18 +116,26 @@ public class DraculaAgent : Agent
 		direction.z = actions.ContinuousActions[1];
 		turnAngle = actions.ContinuousActions[2];
 		weapon.throwAngle += actions.ContinuousActions[3];
+		weapon2.throwAngle += actions.ContinuousActions[3];
 		weapon.throwPower += actions.ContinuousActions[4];
+		weapon2.throwPower += actions.ContinuousActions[4];
 
 		characterMovement.Move(direction);
 		characterMovement.Turn(turnAngle);
-		Debug.Log(actions.DiscreteActions[0].ToString());
+		//Debug.Log(actions.DiscreteActions[0].ToString());
 		if (actions.DiscreteActions[0] == 1)
 		{
-			AddReward(0.1f);
+			//AddReward(0.1f);
+			Debug.Log("firing");
 			weapon.FireWeapon();
-		}
+        }
+        if (actions.DiscreteActions[1] == 1)
+        {
+            //AddReward(0.1f);
+            //weapon2.FireWeapon();
+        }
 
-	}
+    }
 
 	AgentHitRecieveData latestData;
 	public void HitSuccess(AgentHitRecieveData data, bool hitSuccess)
@@ -134,12 +146,14 @@ public class DraculaAgent : Agent
 		{
 			if(data.healthPercent <= 0)
 			{
-				AddReward(10);
+				AddReward(100);
 				EndEpisode();
 			}
 		}
 
-		AddReward(data.hits - (data.misses - 1) * 1.5f);
+		float reward = data.hits - (data.misses - 1) * 1.5f;
+		Debug.Log(reward);
+        //AddReward(reward);
 	}
 
 	public override void OnEpisodeBegin()
@@ -171,7 +185,8 @@ public class DraculaAgent : Agent
 		continuousActions[4] = Input.GetAxis("ThrowPower");
 
 		var discreteActions = actionsOut.DiscreteActions;
-		Debug.Log((Input.GetButton("Jump")) ? 1 : 0);
-		discreteActions[0] = (Input.GetButton("Jump")) ? 1 : 0;
+		//Debug.Log((Input.GetButton("Jump")) ? 1 : 0);
+		discreteActions[0] = (Input.GetButton("Fire1")) ? 1 : 0;
+		discreteActions[1] = (Input.GetButton("Fire2")) ? 1 : 0;
 	}
 }

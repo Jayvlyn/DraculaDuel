@@ -150,7 +150,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   Owner: {fileID: 0}
-  targetTag: 
+  targetTag: TeamRed
   projectile: {fileID: 0}
   plumeObject: {fileID: 7765771200728193305, guid: 5d8eec97565b53649ab201ee18c8b05f, type: 3}
   plumeSpawnDelay: 3

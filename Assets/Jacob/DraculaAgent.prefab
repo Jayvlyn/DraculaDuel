@@ -22,6 +22,7 @@ GameObject:
   - component: {fileID: 2907569846252368908}
   - component: {fileID: 4693754023155464837}
   - component: {fileID: 725497130558574027}
+  - component: {fileID: 8854299745048531776}
   m_Layer: 0
   m_Name: DraculaAgent
   m_TagString: Untagged
@@ -179,8 +180,8 @@ MonoBehaviour:
     VectorObservationSize: 1
     NumStackedVectorObservations: 1
     m_ActionSpec:
-      m_NumContinuousActions: 3
-      BranchSizes: 02000000
+      m_NumContinuousActions: 5
+      BranchSizes: 0200000002000000
     VectorActionSize: 
     VectorActionDescriptions: []
     VectorActionSpaceType: 1
@@ -209,10 +210,11 @@ MonoBehaviour:
   agentParameters:
     maxStep: 0
   hasUpgradedFromAgentParameters: 1
-  MaxStep: 5000
+  MaxStep: 1000
   characterMovement: {fileID: 1935154751001873234}
   perception: {fileID: 424526028061843594}
   weapon: {fileID: 449016842225948709}
+  weapon2: {fileID: 8854299745048531776}
   spawnTransform: {fileID: 0}
   health: {fileID: 725497130558574027}
 --- !u!114 &424526028061843594
@@ -258,7 +260,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: bcfd5eef2e27cf3459accfcf605d7831, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  Owner: {fileID: 0}
+  Owner: {fileID: 4693754023155464837}
   ProjectileObject: {fileID: 7542811334153445678, guid: d770002f10f10cc4086b5809795bf260, type: 3}
   spawnTransform: {fileID: 7710005064307398438}
   FireCooldown: 0.5
@@ -310,6 +312,24 @@ MonoBehaviour:
   OnDeath:
     m_PersistentCalls:
       m_Calls: []
+--- !u!114 &8854299745048531776
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 3071216243321392796}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: bcfd5eef2e27cf3459accfcf605d7831, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  Owner: {fileID: 4693754023155464837}
+  ProjectileObject: {fileID: 3949640693668964893, guid: e8da3f16532d4c04babebef2a6ce1a9e, type: 3}
+  spawnTransform: {fileID: 7710005064307398438}
+  FireCooldown: 5
+  throwAngle: 0
+  throwPower: 250
 --- !u!1 &4272570842700350292
 GameObject:
   m_ObjectHideFlags: 0
