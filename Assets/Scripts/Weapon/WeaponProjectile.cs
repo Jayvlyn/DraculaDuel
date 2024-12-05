@@ -1,3 +1,4 @@
+using UnityEditor.Rendering.Analytics;
 using UnityEngine;
 
 public class WeaponProjectile : MonoBehaviour
@@ -6,6 +7,7 @@ public class WeaponProjectile : MonoBehaviour
     public WeaponHitReciever Owner;
     [SerializeField] string targetTag;
     public GameObject projectile;
+    public float lifeTime = 3;
 
     protected Rigidbody rb;
 
@@ -18,6 +20,15 @@ public class WeaponProjectile : MonoBehaviour
     {
         Owner = owner;
         this.targetTag = targetTag;
+    }
+
+    private void Update()
+    {
+        lifeTime -= Time.deltaTime;
+        if (lifeTime <= 0)
+        {
+            Destroy(this.gameObject);
+        }
     }
 
     private void OnTriggerEnter(Collider other)
@@ -34,7 +45,7 @@ public class WeaponProjectile : MonoBehaviour
             return;
         }
 
-        if (!other.gameObject.CompareTag(this.gameObject.tag))
+        if (!other.gameObject.CompareTag(Owner.gameObject.tag))
         {
             Destroy(this.gameObject);
             Owner.ReceiveHit(false, 100);

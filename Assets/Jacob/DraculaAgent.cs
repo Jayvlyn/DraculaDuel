@@ -106,8 +106,17 @@ public class DraculaAgent : Agent
 		{
 			Debug.Log("End Episoe");
 			AddReward(-1000);
-			//EndEpisode();
-		}
+
+			health.SetHealth(100);
+
+            // move back to spawn transform
+            transform.position = spawnTransform.position;
+
+            // set rotation to be correct
+            transform.localRotation = UnityEngine.Quaternion.Euler(0, 90, 0);
+
+            //EndEpisode();
+        }
 
 
 	}
@@ -123,9 +132,16 @@ public class DraculaAgent : Agent
 		direction.z = actions.ContinuousActions[1];
 		turnAngle = actions.ContinuousActions[2];
 		weapon.throwAngle += actions.ContinuousActions[3];
+		weapon.throwAngle = Mathf.Clamp(weapon.throwAngle, -30, 90);
 		weapon2.throwAngle += actions.ContinuousActions[3];
+		weapon2.throwAngle = Mathf.Clamp(weapon2.throwAngle, -30, 90);
 		weapon.throwPower += actions.ContinuousActions[4];
+		weapon.throwPower = Mathf.Clamp(weapon.throwPower, 250, 1000);
 		weapon2.throwPower += actions.ContinuousActions[4];
+		weapon2.throwPower = Mathf.Clamp(weapon2.throwPower, 250, 1000);
+
+		Debug.Log("Throw Angle: " + weapon.throwAngle);
+		Debug.Log("Throw Power: " + weapon.throwPower);
 
 		characterMovement.Move(direction);
 		characterMovement.Turn(turnAngle);
@@ -154,6 +170,7 @@ public class DraculaAgent : Agent
 			if(data.healthPercent <= 0)
 			{
 				AddReward(1000);
+				health.SetHealth(100);
 				EndEpisode();
 			}
 		}
@@ -175,6 +192,8 @@ public class DraculaAgent : Agent
 		// set rotation to be correct
 		transform.localRotation = UnityEngine.Quaternion.Euler(0, 90, 0);
 	}
+
+
 
 	public override void Heuristic(in ActionBuffers actionsOut)
 	{
