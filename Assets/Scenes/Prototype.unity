@@ -2444,14 +2444,6 @@ PrefabInstance:
       propertyPath: m_Name
       value: Dojo
       objectReference: {fileID: 0}
-    - target: {fileID: 4737009618145295304, guid: 0a6fbc6a80439c44e8fa5c60397ade7e, type: 3}
-      propertyPath: m_TagString
-      value: TeamRed
-      objectReference: {fileID: 0}
-    - target: {fileID: 8479009532016358613, guid: 0a6fbc6a80439c44e8fa5c60397ade7e, type: 3}
-      propertyPath: m_TagString
-      value: TeamBlue
-      objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
     m_AddedGameObjects: []
