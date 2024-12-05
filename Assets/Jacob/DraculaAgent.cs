@@ -14,6 +14,8 @@ public class DraculaAgent : Agent
 	public Health health;
 
 
+	private Vector3 lastPos;
+
 	/*
 	 * Observations:
 	 * 0: This Agent Position
@@ -34,7 +36,12 @@ public class DraculaAgent : Agent
 		List<TargetHitData> hitData = perception.PerceiveTargets(transform.forward);
 
 		// 0
-		sensor.AddObservation(transform.localPosition);
+		//sensor.AddObservation(transform.localPosition);
+
+		float distance = Vector3.Distance(lastPos, transform.position);
+		if (distance > 10) distance = 10;
+		AddReward(Mathf.Lerp(0, 10, distance / 10));
+		lastPos = transform.position;
 
 		
 		Transform enemyTransform = null;
@@ -98,8 +105,8 @@ public class DraculaAgent : Agent
 		if(health.currentHealth <= 0)
 		{
 			Debug.Log("End Episoe");
-			AddReward(-10);
-			EndEpisode();
+			AddReward(-1000);
+			//EndEpisode();
 		}
 
 
@@ -146,7 +153,7 @@ public class DraculaAgent : Agent
 		{
 			if(data.healthPercent <= 0)
 			{
-				AddReward(100);
+				AddReward(1000);
 				EndEpisode();
 			}
 		}

@@ -52,7 +52,8 @@ public class AgentWeapon : MonoBehaviour
             // Pew
             GameObject newProjectile = Instantiate(ProjectileObject, tempTransform.position, tempTransform.rotation);
             WeaponProjectile wp = newProjectile.GetComponent<WeaponProjectile>();
-            wp.SetOwner(Owner);
+            if (gameObject.tag == "TeamRed") wp.SetOwner(Owner, "TeamBlue");
+            else wp.SetOwner(Owner, "TeamRed");
 
             newProjectile.GetComponent<Rigidbody>().AddForce(force * throwPower);
 

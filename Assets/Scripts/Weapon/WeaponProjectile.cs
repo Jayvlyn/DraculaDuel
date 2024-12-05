@@ -14,9 +14,10 @@ public class WeaponProjectile : MonoBehaviour
         rb = GetComponent<Rigidbody>();
     }
 
-    public void SetOwner(WeaponHitReciever owner)
+    public void SetOwner(WeaponHitReciever owner, string targetTag)
     {
         Owner = owner;
+        this.targetTag = targetTag;
     }
 
     private void OnTriggerEnter(Collider other)
